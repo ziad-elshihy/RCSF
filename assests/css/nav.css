@@ -83,31 +83,3 @@ nav .list {
 .dropdown:hover .dropdown-menu {
    display: block;
 }
-   .hover-menu {
-      border: 1px solid #ddd;
-      list-style-type: none;
-      position: fixed;
-      background-color: #f8f9fa;
-      padding: 0;
-      border-radius: 3px;
-      top: 68px;
-   }
-
-   .list1,
-   .list2,
-   .list3 {
-      display: none;
-   }
-
-   .a1:hover .list1 {
-      display: flex !important;
-   }
-
-   .a2:hover .list2 {
-      display: block !important;
-   }
-
-   .a3:hover .list3 {
-      display: block !important;
-   }
-} */
