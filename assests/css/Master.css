@@ -46,3 +46,12 @@ body {
    line-height: 2;
    width: 100%;
 }
+@media (max-width: 767px) {
+   .content h1 {
+      font-size: 30px;
+   }
+   
+   .content p {
+      font-size: 14px;
+   }
+}
