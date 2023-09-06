@@ -1,0 +1,39 @@
+* {
+   transition: 0.3s;
+}
+
+body {
+   color: black;
+}
+
+
+nav .list {
+   padding: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.nav-link {
+   font-size: 15px;
+   padding: 18px 14px;
+}
+
+.nav-link:hover {
+   background-color: #DDD;
+}
+.navbar-brand {
+   margin: 0;
+}
+.navbar-brand img {
+   width: 50px;
+}
+.navbar-brand p {
+   font-size: 14px;
+   font-weight: bold;
+}
+.active {
+   color:#03a9f4 !important ;
+   font-size: 15px;
+   font-weight: bold;
+}
