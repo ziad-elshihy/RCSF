@@ -21,7 +21,7 @@ nav .list {
 }
 @media (min-width: 768px) {
    nav .list {
-      gap: 15px;
+      gap: 17px;
    }
 }
 .nav-link {
@@ -31,7 +31,7 @@ nav .list {
 
 .active {
    color: var(--green-color) !important;
-   font-size: 15px;
+   font-size: 19px;
    font-weight: bold;
 }
 
