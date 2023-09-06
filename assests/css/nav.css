@@ -5,6 +5,7 @@
 
 :root {
    --green-color: #27ae60;
+   --h-w: 60px;
 }
 
 body {
@@ -51,10 +52,12 @@ nav .list {
 }
 
 .navbar-brand img {
-   width: 55px;
+   width: var(--h-w);
+   height: var(--h-w);
 }
 
 .navbar-brand p {
+   color: var(--green-color) !important;
    font-size: 20px;
    font-weight: bold;
 }
