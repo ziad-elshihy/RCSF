@@ -22,7 +22,6 @@ body {
    font-family: Arial, sans-serif, Helvetica;
    scroll-behavior: smooth;
    min-height: 10000px;
-   background-color: rgba(38, 63, 38, 0.885);
    position: relative;
 }
 
@@ -33,10 +32,14 @@ body {
    justify-content: center;
    align-items: center;
 }
+
 .content {
-   color: var(--whitesmoke-color);
+   color: var(--dark-color);
    text-align: center;
+   background: url('../images/sustainable-development-goals-still-life.jpg')  center/cover no-repeat;
+
 }
+
 .content .logo img {
    width: var(--h-w);
    height: var(--h-w);
@@ -52,6 +55,7 @@ body {
    .content h1 {
       font-size: 30px;
    }
+
    .content img {
       width: 80px;
    }
