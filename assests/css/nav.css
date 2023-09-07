@@ -29,7 +29,7 @@ nav .list {
 }
 
 .nav-link {
-   color: black;
+   color: white;
    font-size: 19px;
    padding: 20px 14px;
    height: 100%;
@@ -46,15 +46,6 @@ nav .list {
    color: var(--green-color) !important;
 }
 
-.navbar-brand {
-   margin: 0;
-}
-
-.dropdown-menu {
-   text-align: right;
-   padding: 0;
-}
-
 .dropdown-item {
    padding: 20px;
    border-radius: 3px;
@@ -68,6 +59,7 @@ nav .list {
 }
 .dropdown-menu {
    padding: 30px 10px;
+   text-align: right;
 }
 .border-l {
    border-left: 1px solid var(--green-color);
@@ -85,3 +77,9 @@ nav .list {
    right: -250px;
 }
 
+.bgColor {
+   background-color: #f8f9fa !important;
+}
+.nav-link.bgColor {
+   color: black !important;
+}
