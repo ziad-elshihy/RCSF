@@ -15,7 +15,7 @@
    --light-color: #fff;
    --transition: all 300ms ease-in-out;
    --gradient: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-   --h-w: 70px;
+   --h-w: 400px;
 }
 
 body {
@@ -39,29 +39,18 @@ body {
    width: var(--h-w);
    height: var(--h-w);
 }
-.content .logo p {
-   font-size: 20px;
-   font-weight: bold;
-}
+
 .content h1 {
-   font-size: 46px;
+   font-size: 50px;
    font-weight: bold;
    padding-bottom: 20px;
 }
 
-.content p {
-   font-size: 25px;
-   font-weight: bold;
-   padding-top: 10px;
-   line-height: 2;
-   width: 100%;
-}
 @media (max-width: 767px) {
    .content h1 {
       font-size: 30px;
    }
-   
-   .content p {
-      font-size: 14px;
+   .content img {
+      width: 80px;
    }
 }
