@@ -85,9 +85,9 @@ nav .list {
    right: -250px;
 }
 
-.bgColor {
+nav.bgColor {
    background-color: #f8f9fa !important;
 }
-.nav-link.bgColor {
+#nav-link.bgColor {
    color: black !important;
 }

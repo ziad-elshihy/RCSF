@@ -1,14 +1,15 @@
 function NavBg() {
    let nav = document.querySelector('#nav')
-   let navLink = document.querySelector('#nav-link')
-   console.log(navLink)
+   let navLink = document.querySelectorAll('#nav-link')
    let scrollValue = window.scrollY
-   if (scrollValue < 150) {
+   navLink.forEach(link => {
+   if (scrollValue < 100) {
       nav.classList.remove('bgColor')
-      navLink.classList.remove('bgColor')
+      link.classList.remove('bgColor')
    } else {
       nav.classList.add('bgColor')
-      navLink.classList.add('bgColor')
-   }
+      link.classList.add('bgColor')
+      ;
+   }})
 }
 window.addEventListener('scroll' , NavBg)
