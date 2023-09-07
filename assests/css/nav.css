@@ -9,7 +9,10 @@ ul {
    --green-color: #27ae60;
 }
 
-
+.FONT {
+   font-weight: bolder;
+   font-size: 17px;
+}
 nav .list {
    padding: 0;
    list-style-type: none;
