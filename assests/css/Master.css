@@ -19,13 +19,15 @@
 }
 
 body {
-   min-height: 100vh;
+   font-family: Arial, sans-serif, Helvetica;
+   scroll-behavior: smooth;
+   min-height: 10000px;
    background-color: rgba(38, 63, 38, 0.885);
    position: relative;
 }
 
 .content .container {
-   height: calc(100vh - 101px);
+   height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
