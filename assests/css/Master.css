@@ -34,7 +34,6 @@ body {
 
 .content {
    position: relative;
-   color: var(--dark-color);
    text-align: center;
    background: url('../images/sustainable-development-goals-still-life.jpg') center/cover no-repeat;
 }
@@ -54,8 +53,15 @@ body {
    top: 50%;
    left: 50%;
    transform: translate(-48%, -45%);
-   width:370px;
+   width: 370px;
    height: 370px;
+}
+
+@media (max-width: 991px) {
+   .content img {
+      width: 345px;
+      height: 345px;
+   }
 }
 
 .content h1 {
@@ -70,9 +76,5 @@ body {
 @media (max-width: 767px) {
    .content h1 {
       font-size: 30px;
-   }
-
-   .content img {
-      width: 80px;
    }
 }
