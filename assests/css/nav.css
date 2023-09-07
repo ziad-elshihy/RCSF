@@ -60,13 +60,14 @@ nav .list {
 .dropdown-item:hover {
    color: var(--green-color) !important;
 }
-
-.dropdown-menu {
+.my-height {
    height: 400px;
+}
+.dropdown-menu {
    padding: 30px 10px;
 }
 .border-l {
-   border-left: 1px solid #ddd;
+   border-left: 1px solid var(--green-color);
 }
 .dropdown-menu li{
    height: 100%;
