@@ -44,7 +44,6 @@ nav .list {
 }
 
 .nav-link:hover {
-   background-color: #DDD;
    color: var(--green-color) !important;
 }
 
