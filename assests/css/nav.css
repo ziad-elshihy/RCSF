@@ -31,7 +31,7 @@ nav .list {
 }
 
 .nav-link {
-   color: black;
+   color: white;
    font-size: 19px;
    padding: 20px 14px;
    height: 100%;
@@ -46,15 +46,6 @@ nav .list {
 .nav-link:hover {
    background-color: #DDD;
    color: var(--green-color) !important;
-}
-
-.navbar-brand {
-   margin: 0;
-}
-
-.dropdown-menu {
-   text-align: right;
-   padding: 0;
 }
 
 .dropdown-item {
@@ -72,6 +63,7 @@ nav .list {
 
 .dropdown-menu {
    padding: 30px 10px;
+   text-align: right;
 }
 
 .border-l {
@@ -91,4 +83,11 @@ nav .list {
 .dropdown:hover .dropdown-menu {
    display: flex;
    right: -250px;
+}
+
+nav.bgColor {
+   background-color: #f8f9fa !important;
+}
+#nav-link.bgColor {
+   color: black !important;
 }
