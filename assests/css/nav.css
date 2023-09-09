@@ -53,32 +53,36 @@ nav .list {
    color: var(--green-color) !important;
 }
 
-.my-height {
+/* .my-height {
    height: 400px;
-}
+} */
 
 .dropdown-menu {
-   padding: 30px 10px;
+   padding: 15px;
    text-align: right;
 }
 
 .border-l {
-   border-left: 1px solid var(--green-color);
+   border-bottom: 1px solid var(--green-color);
+}
+.border-r {
+   border-bottom: 1px solid var(--green-color);
 }
 
-.dropdown-menu li {
+.hide {
+   overflow: hidden;
+   height: 0;
+   transition: 0.3s;
+}
+
+.show:hover .hide {
+   overflow: visible;
    height: 100%;
 }
 
-@media (min-width: 993px) {
-   .dropdown:hover .dropdown-menu {
-      right: -150px;
-   }
-}
-
 .dropdown:hover .dropdown-menu {
-   display: flex;
-   right: -250px;
+   display: block;
+   /* right: -250px; */
 }
 
 nav.bgColor {
