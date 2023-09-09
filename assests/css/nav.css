@@ -35,6 +35,7 @@ nav .list {
    font-size: 19px;
    padding: 20px 14px;
    height: 100%;
+   font-weight: bold;
 }
 
 .active {
