@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="en">
 
 <head>
    <meta charset="UTF-8">
@@ -14,12 +14,12 @@
 <body>
    <!--=============== HEADER ===============-->
    <button class="lang">
-      <a href="./ar.html">
-         عربى
+      <a href="./index.html">
+         EN
       </a>
    </button>
    <header class="header">
-      <nav class="nav container">
+      <nav class="nav nav-ar container">
          <div class="nav__data">
             <a href="#" class="nav__logo">
                <img class="logo" src="./assets/images/rscf (Large).png" alt="Logo">
@@ -29,84 +29,86 @@
                <i class="ri-close-line nav__close"></i>
             </div>
          </div>
-
          <!--=============== NAV MENU ===============-->
          <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
-               <li><a href="#" class="nav__link main-link">Home</a></li>
+               <li><a href="#" class="nav__link main-link">الصفحة الرئيسية</a></li>
                <!--=============== DROPDOWN 1 ===============-->
                <li class="dropdown__item">
                   <div class="nav__link main-link">
-                     About Us <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     عن المركز<i class="ri-arrow-down-s-line dropdown__arrow"></i>
                   </div>
 
-                  <ul class="dropdown__menu">
+                  <ul class="dropdown__menu .dropdown__menu-ar">
                      <li>
                         <a href="#" class="dropdown__link dropdown__about">
-                           Mission
+                           الرسالة
                         </a>
                      </li>
 
                      <li>
                         <a href="#" class="dropdown__link dropdown__about">
-                           Vision
+                           الرؤية
                         </a>
                      </li>
 
                      <!--=============== DROPDOWN SUBMENU ===============-->
                      <li class="dropdown__subitem">
                         <div class="dropdown__link dropdown__about">
-                           Organizational Chart: <i class="ri-add-line dropdown__add"></i>
+                           الهيكل التنظيمى :<i class="ri-add-line dropdown__add"></i>
                         </div>
 
-                        <ul class="dropdown__submenu">
+                        <ul class="dropdown__submenu dropdown__submenu__ar">
                            <li>
                               <a href="#" class="dropdown__sublink dropdown__about">
-                                 Executive Director
+                                 المدير التنفيذي
                               </a>
                            </li>
                            <li>
                               <a href="#" class="dropdown__sublink dropdown__about">
-                                 Research and development management
+                                 إدارة الاتصال المؤسسي
                               </a>
                            </li>
                            <li>
                               <a href="#" class="dropdown__sublink dropdown__about">
-                                 Training and capacity building management
+                                 إدارة التطوير وبناء القدرات
                               </a>
                            </li>
                         </ul>
                      </li>
                   </ul>
                </li>
-               <li><a href="#" class="nav__link main-link">Sustainable Financing Patterns</a></li>
+               <li><a href="#" class="nav__link main-link">
+                     أنماط التمويل المستدام
+                  </a></li>
                <!--=============== DROPDOWN 2 ===============-->
                <li class="dropdown__item">
                   <div class="nav__link main-link">
-                     Activities and events <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     أنشطة وفاعليات
+                     <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                   </div>
 
-                  <ul class="dropdown__menu">
+                  <ul class="dropdown__menu .dropdown__menu-ar">
                      <li>
                         <a href="#" class="dropdown__link">
-                           Discussion panels
+                           حلقات نقاش
                         </a>
                      </li>
 
                      <li>
                         <a href="#" class="dropdown__link">
-                           Conferences
+                           مؤتمرات
                         </a>
                      </li>
 
                      <li>
                         <a href="#" class="dropdown__link">
-                           Seminars
+                           ندوات
                         </a>
                      </li>
                      <li>
                         <a href="#" class="dropdown__link">
-                           Workshops
+                           ورش عمل
                         </a>
                      </li>
                   </ul>
@@ -114,35 +116,36 @@
                <!--=============== DROPDOWN  ===============-->
                <li class="dropdown__item">
                   <div class="nav__link main-link">
-                     Library <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     المكتبة
+                     <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                   </div>
 
                   <ul class="dropdown__menu">
                      <li>
                         <a href="#" class="dropdown__link">
-                           Books
+                           كتب
                         </a>
                      </li>
 
                      <li>
                         <a href="#" class="dropdown__link">
-                           Patrols
+                           دوريات
                         </a>
                      </li>
 
                      <li>
                         <a href="#" class="dropdown__link">
-                           Reports
+                           تقارير
                         </a>
                      </li>
                      <li>
                         <a href="#" class="dropdown__link">
-                           Special Editions
+                           إصدرات خاصة
                         </a>
                      </li>
                      <li>
                         <a href="#" class="dropdown__link">
-                           Electronic Versions
+                           إصدارات الكترونية
                         </a>
                      </li>
                   </ul>
@@ -151,43 +154,44 @@
          </div>
       </nav>
    </header>
-      <!--=============== Section ===============-->
-   <section class="main">
+   <!--=============== Section ===============-->
+   <div class="main">
       <div class="slider " id="slider">
          <div class="slides current ">
-            <img class="image-en" src="./assets/images/rscf (Large).png" alt="">
+            <img class="image-ar" src="./assets/images/rscf (Large).png" alt="">
          </div>
          <div class="slides">
             <h2>
-               mission
+               الرسالة
             </h2>
             <h3 class="h1">
+               "يسعي المركز إلى تحقيق تأثير ملموس في عملية التحول العادل من خلال تعزيز مرونة القطاع المالي غير المصرفي
+               في مواجهة التغيرات المناخية وتحسين ممارسات الاستدامة، وذلك من خلال بناء قدرات مختلف الأطراف الفاعلة في
+               القطاع المالي وبناء الشراكات الاستراتيجية محلياً، وإقليمياً وعالمياً والمساهمة في وضع التشريعات والضوابط
+               اللازمة لتعزيز استدامة الأسواق المالية غير المصرفية"
+            </h3>
+         </div>
+         <div class="slides">
+            <h2>
+               الرؤية
+            </h2>
+            <h3 class="h3">
+               "مركزاً إقليمياً رائداً في تعزيز ممارسات الاستدامة والتمويل المستدام بالقطاع المالي غير المصرفي لدعم
+               مساهمته في تحقيق التحول العادل نحو الاقتصاد المستدام"
+            </h3>
+         </div>
+         <!-- <div class="slides">
+            <h2>mission</h2>
+            <h3>
                “Striving for real impact in just-transition by enhancing the non-banking financial sector resilient to
                climate changes and promoting sustainability practices through capacity building, strategic partnerships
                and cohesive regulations to ensure the role of financial services in just-transition.”
             </h3>
-         </div>
-         <div class="slides">
-            <h2>
-               Vision
-            </h2>
-            <h3 class="h3">
-               “A Pioneer Regional Center for Promoting just-transition and Sustainability Practices in the Non-Banking
-               Financial Services Ecosystem”
-            </h3>
-         </div>
-         <!-- <div class="slides">
-               <h2>mission</h2>
-               <h3>
-                  “Striving for real impact in just-transition by enhancing the non-banking financial sector resilient to
-                  climate changes and promoting sustainability practices through capacity building, strategic partnerships
-                  and cohesive regulations to ensure the role of financial services in just-transition.”
-               </h3>
-            </div> -->
+         </div> -->
       </div>
-      <i class="ri-arrow-left-s-line prev"  id="prev"></i>
+      <i class="ri-arrow-left-s-line prev" id="prev"></i>
       <i class="ri-arrow-right-s-line next" id="next"></i>
-   </section>
+   </div>
    <script src="./assets/js/main.js"></script>
    <script src="./assets/js/app.js"></script>
    <script src="./assets/js/script.js"></script>
