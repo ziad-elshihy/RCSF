@@ -1,0 +1,28 @@
+main {
+   min-height: 100vh;
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../assets//images/wepik-export-20230914111458MqxZ.jpeg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main div {
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+h1 {
+   font-size: 50px;
+}
+
+h2 {
+   font-size: 35px;
+}
