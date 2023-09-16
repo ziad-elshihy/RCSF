@@ -128,8 +128,13 @@ const Navbar = () => {
                         <li className="dropdown__link">
                            {lang ? 'كتب' : '   Books'}
                         </li>
-                        <li className="dropdown__link">
-                           {lang ? 'دوريات' : 'Patrols'}
+                        <li >
+                           <Link
+                              className="dropdown__link"
+                              to='/Patrols'
+                           >
+                              {lang ? 'دوريات' : 'Patrols'}
+                           </Link>
                         </li>
                         <li className="dropdown__link">
                            {lang ? "بلاغات" : 'Reports'}
