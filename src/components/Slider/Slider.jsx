@@ -25,8 +25,8 @@ function Slider() {
          loop={true}
       >
          <SwiperSlide className='slide__s'>
-            <div>
-               <img className="image-en" src={image} alt="Logo" />
+            <div className='image container'>
+               <img className="big-logo" src={image} alt="Logo" />
             </div>
          </SwiperSlide>
          <SwiperSlide className='slide__s2'>
