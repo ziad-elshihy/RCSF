@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-// import "../components/slider.css"
+// import "../StrategicGoals/strategic goals.css"
 const StrategicGoals = () => {
    const { lang } = useContext(dataContext)
    return (
