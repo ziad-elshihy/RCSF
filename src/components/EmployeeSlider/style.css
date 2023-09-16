@@ -50,8 +50,6 @@ Slider
 
 .title h2 {
    display: flex;
-   align-items: center;
-   justify-content: center;
    font-weight: 500;
 }
 
@@ -113,7 +111,7 @@ article h4 {
    top: 50%;
    transform: translateY(-50%);
    background: var(--clr-grey-5);
-   color: var(--clr-white);
+   color: #217443;
    width: 1.25rem;
    height: 1.25rem;
    display: grid;

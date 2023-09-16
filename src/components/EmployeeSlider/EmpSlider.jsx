@@ -22,7 +22,6 @@ const EmpSlider = () => {
             <div className="section-center">
                {people.map((person, personIndex) => {
                   const { id, image, name, title } = person;
-
                   let position = 'nextSlide';
                   if (personIndex === index) {
                      position = 'activeSlide';
@@ -33,7 +32,6 @@ const EmpSlider = () => {
                   ) {
                      position = 'lastSlide';
                   }
-
                   return (
                      <article className={position} key={id}>
                         <div></div>
