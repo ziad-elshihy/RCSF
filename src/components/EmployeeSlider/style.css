@@ -32,6 +32,12 @@
    height: 50vh;
 }
 
+@media (max-width: 767px) {
+   .section .container {
+      height: 40vh;
+   }
+}
+
 /*
 =============== 
 Slider
@@ -99,11 +105,10 @@ article h4 {
    margin-top: 1rem;
    color: var(--clr-primary-5);
 }
-button {
-   padding: 0;
-}
+
 .prev,
 .next {
+   padding: 0;
    position: absolute;
    top: 50%;
    transform: translateY(-50%);

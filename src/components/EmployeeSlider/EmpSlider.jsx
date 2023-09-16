@@ -21,7 +21,7 @@ const EmpSlider = () => {
          <div className="container">
             <div className="section-center">
                {people.map((person, personIndex) => {
-                  const { id, image, name, title, quote } = person;
+                  const { id, image, name, title } = person;
 
                   let position = 'nextSlide';
                   if (personIndex === index) {
@@ -36,6 +36,7 @@ const EmpSlider = () => {
 
                   return (
                      <article className={position} key={id}>
+                        <div></div>
                         <img src={image} alt={name} className="person-img" />
                         <h4>{name}</h4>
                         <p className="title">{title}</p>

@@ -6,8 +6,8 @@ const ExecutiveDirector = () => {
    const { lang } = useContext(dataContext)
    return (
       <>
-         <main>
-            <div>
+         <main >
+            <div className='container'>
                <h1>
                   {
                      lang
