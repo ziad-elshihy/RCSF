@@ -38,6 +38,7 @@ const Navbar = () => {
                      <Link
                         className="nav__link main-link"
                         to='/'
+                        onClick={() => setShow(false)}
                      >
                         {lang ? ' الصفحة الرئيسية' : 'Home'}
                      </Link>
@@ -61,6 +62,7 @@ const Navbar = () => {
                            <Link
                               className="dropdown__link dropdown__about"
                               to='/StrategicGoals'
+                              onClick={() => setShow(false)}
                            >
                               {lang ? "الأهداف الإستراتيجية للمركز" : "The centre's strategic goals"}
                            </Link>
@@ -75,6 +77,7 @@ const Navbar = () => {
                                  <Link
                                     to='/director'
                                     className="dropdown__sublink dropdown__about"
+                                    onClick={() => setShow(false)}
                                  >
                                     {lang ? " المدير التنفيذي" : "Executive Director"}
                                  </Link>
@@ -132,6 +135,7 @@ const Navbar = () => {
                            <Link
                               className="dropdown__link"
                               to='/Patrols'
+                              onClick={() => setShow(false)}
                            >
                               {lang ? 'دوريات' : 'Patrols'}
                            </Link>
