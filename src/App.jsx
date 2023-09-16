@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import ExecutiveDirector from './Pages/ExecutiveDirector'
-import Navbar from './components/Navbar'
-import Slider from './components/Slider'
-import StrategicGoals from './Pages/StrategicGoals'
+
+import Navbar from './components/Nav/Navbar';
+import ExecutiveDirector from './Pages/ExecutiveDirector/ExecutiveDirector';
+import StrategicGoals from './Pages/StrategicGoals/StrategicGoals';
+import Patrols from './Pages/Patrols/Patrols';
+import Home from './Pages/Home';
 
 const App = () => {
    
@@ -10,10 +12,10 @@ const App = () => {
       <BrowserRouter >
          <Navbar />
          <Routes >
-            <Route path='/' element={<Slider />}  />
+            <Route path='/' element={<Home />}  />
             <Route path='/director' element={<ExecutiveDirector  />} />
             <Route path='/StrategicGoals' element={<StrategicGoals />} />
-            {/* <Route path='/explore/:mediaType' element={<Explore />} /> */} 
+            <Route path='/Patrols' element={<Patrols />} /> 
             {/* <Route path='*' element={<PageNotFound />} /> */}
          </Routes>
       </BrowserRouter>

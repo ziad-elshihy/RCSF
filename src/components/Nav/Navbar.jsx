@@ -1,13 +1,13 @@
 import React, { useState, useContext } from 'react'
 import './nav.css'
-import NavBg from '../assets/js/script'
-import Logo from '../assets/images/FRA.png'
+import NavBg from '../../assets/js/script'
+import Logo from '../../assets/images/FRA.png'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { HiMiniPlusSmall } from 'react-icons/hi2'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import Button from './Button';
+import Button from '../button/Button';
 import { Link } from 'react-router-dom'
-import { dataContext } from '../context/Context';
+import { dataContext } from '../../context/Context';
 const Navbar = () => {
    const { lang, setLang } = useContext(dataContext)
    const [show, setShow] = useState(false)
@@ -15,10 +15,9 @@ const Navbar = () => {
    return (
       <header className="header">
          <nav className="nav container">
-            <Button lang={lang} setLang={setLang} />
+            <Button />
             <div className="nav__data">
                <Link
-                  className="nav__link main-link"
                   to='/'
                >
                   <img className="logo" src={Logo} alt="Logo" />
@@ -95,7 +94,6 @@ const Navbar = () => {
                   </li>
                   <li className="nav__link main-link">
                      {lang ? 'أنماط التمويل المستدام' : 'Sustainable Financing Patterns'}
-
                   </li>
                   {/* <!--=============== DROPDOWN 2 ===============--> */}
                   <li className="dropdown__item">
@@ -130,8 +128,13 @@ const Navbar = () => {
                         <li className="dropdown__link">
                            {lang ? 'كتب' : '   Books'}
                         </li>
-                        <li className="dropdown__link">
-                           {lang ? 'دوريات' : 'Patrols'}
+                        <li >
+                           <Link
+                              className="dropdown__link"
+                              to='/Patrols'
+                           >
+                              {lang ? 'دوريات' : 'Patrols'}
+                           </Link>
                         </li>
                         <li className="dropdown__link">
                            {lang ? "بلاغات" : 'Reports'}

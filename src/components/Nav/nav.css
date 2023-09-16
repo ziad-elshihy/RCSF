@@ -1,4 +1,3 @@
-
 /*=============== VARIABLES CSS ===============*/
 :root {
    --header-height: 3.5rem;
@@ -88,7 +87,7 @@ a {
    left: 0;
    width: 100%;
    background-color: transparent;
-   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+   /* box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3); */
    z-index: var(--z-fixed);
 }
 
@@ -97,20 +96,28 @@ a {
    color: var(--white-color);
 }
 
+Link {
+   text-decoration: underline;
+}
+
 .nav__data {
-   direction: ltr;
-   height: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 10px 0;
 }
 
+/* @media (max-width: 991px) {
+   .nav__data {
+      height: 60px;
+   }
+} */
 
 
 .logo {
-   width: 95px;
+   width: 75px;
 }
+
 
 
 .nav__burger {
@@ -133,7 +140,7 @@ a {
       pointer-events: none;
       opacity: 0;
       transition: top .4s, opacity .3s;
-      margin-top: 40px;
+      margin-top: 15px;
    }
 
    .nav__menu::-webkit-scrollbar {
@@ -147,7 +154,13 @@ a {
    }
 
    .logo {
-      width: 50px;
+      width: 75px;
+   }
+}
+
+@media (max-width:767px) {
+   .logo {
+      width: 55px;
    }
 }
 
@@ -168,8 +181,16 @@ a {
 @media (max-width: 1118px) {
 
    a.nav__link,
+   li.nav__link,
    div.nav__link {
       color: var(--black-color);
+      transition: 0.3s;
+   }
+
+   a.nav__link:hover,
+   li.nav__link:hover,
+   div.nav__link:hover {
+      color: var(--white-color);
    }
 }
 
@@ -252,6 +273,10 @@ a {
 /* For small devices */
 @media (max-width: 767px) {
    .nav__link {
+      color: var(--black-color);
+   }
+
+   .nav__link {
       padding-inline: 1rem;
    }
 
@@ -263,17 +288,10 @@ a {
       background-color: var(--white-color);
    }
 
-   .nav__link {
-      color: var(--black-color);
-   }
 }
 
 /* For large devices */
 @media screen and (min-width: 1118px) {
-   .container {
-      margin-inline: auto;
-   }
-
    .nav {
       height: calc(var(--header-height) + 2rem);
       display: flex;
@@ -339,6 +357,7 @@ a {
       background: var(--white-color);
       color: var(--black-color);
    }
+
    .dropdown__submenu-en {
       left: -100%;
    }
@@ -380,17 +399,11 @@ a {
       color: var(--black-color);
    }
 
-   .nav__burger.bgColor,
-   .nav__close.bgColor {
+   .nav__burger.bgColor {
       color: var(--black-color);
    }
 }
 
-
-.nav-ar {
-   flex-direction: row-reverse;
-}
-
 .nav li ul li {
-   border-bottom: 1px solid #333;
+   border-bottom: 1px solid #d1cfcf;
 }

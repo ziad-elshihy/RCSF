@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 
-import { dataContext } from '../context/Context';
+import { dataContext } from '../../context/Context';
 import './exclusive.css'
 const ExecutiveDirector = () => {
-   const { lang, setLang } = useContext(dataContext)
+   const { lang } = useContext(dataContext)
    return (
       <>
          <main>

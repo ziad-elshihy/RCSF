@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { dataContext } from '../context/Context';
+import { dataContext } from '../../context/Context';
 // import Swiper core and required modules
 import { Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import "../components/slider.css"
+// import "../StrategicGoals/strategic goals.css"
 const StrategicGoals = () => {
-   const { lang, setLang } = useContext(dataContext)
+   const { lang } = useContext(dataContext)
    return (
       <Swiper
          // install Swiper modules
@@ -21,7 +21,7 @@ const StrategicGoals = () => {
          scrollbar={{ draggable: true }}
          loop={true}
       >
-         <SwiperSlide className='slide__s2'>
+         <SwiperSlide  className='slide__s2'>
             <div className='content' >
                <h2>
                   {lang ? 'الأهداف الإستراتيجية' : 'Strategic Goals'}
@@ -33,7 +33,7 @@ const StrategicGoals = () => {
                <h2>
                   {lang ? 'الهدف الإستراتيجي الاول' : 'First strategic goal'}
                </h2>
-               <h3 >
+               <h3 dir={lang ? 'rtl' : 'ltr'} >
                   {
                      lang
                         ? 'تعزيز مرونة المؤسسات المالية غير المصرفية في عملية التحول العادل نحو الاقتصاد المستدام'
@@ -47,7 +47,7 @@ const StrategicGoals = () => {
                <h2>
                   {lang ? ' الهدف الإستراتيجي  الثاني' : 'Second strategic goal'}
                </h2>
-               <h3 >
+               <h3 dir={lang ? 'rtl' : 'ltr'} >
                   {
                      lang
                         ? 'بناء القدرات الجهات التابعة للهيئة العامة للرقابة المالية فيما يتعلق بالاستدامة'
@@ -61,7 +61,7 @@ const StrategicGoals = () => {
                <h2>
                   {lang ? ' الهدف الإستراتيجي  الثالث' : 'Third strategic goal'}
                </h2>
-               <h3 >
+               <h3 dir={lang ? 'rtl' : 'ltr'} >
                   {
                      lang
                         ? 'بناء الشراكات الاستراتيجية محلياً وإقليمياً ودولياً  '
@@ -75,7 +75,7 @@ const StrategicGoals = () => {
                <h2>
                   {lang ? 'الهدف الإستراتيجي  الرابع' : 'Fourth strategic goal'}
                </h2>
-               <h3 >
+               <h3 dir={lang ? 'rtl' : 'ltr'} >
                   {
                      lang
                         ? ' إتاحة وتبادل الخبرات والمعرفة فيما يتعلق بالتمويل المستدام'
@@ -89,7 +89,7 @@ const StrategicGoals = () => {
                <h2>
                   {lang ? 'الهدف الإستراتيجي  الخامس' : 'Fifth strategic goal'}
                </h2>
-               <h3 >
+               <h3 dir={lang ? 'ltr' : 'rtl'} >
                   {
                      lang
                         ? 'المشاركة في رفع التوصيات الخاصة بالقواعد والإجراءات والمعايير اللازمة لضمان استدامة الأسواق واستحداث أسواق مالية جديدة'
