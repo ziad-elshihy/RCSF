@@ -1,6 +1,6 @@
 .slide__s {
    height: 100vh;
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../assets/images/sustainable-development-goals-still-life.jpg');
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/sustainable-development-goals-still-life.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -9,7 +9,7 @@
 
 .slide__s2 {
    height: 100vh;
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../assets/images/main.jpg');
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/main.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -17,15 +17,6 @@
    display: flex;
    align-items: center;
    justify-content: center;
-}
-
-.image-ar {
-   width: 350px;
-   position: absolute;
-   left: 50%;
-   right: 50%;
-   transform: translate(52%, 6%);
-   z-index: -1;
 }
 
 .image-en {
@@ -38,6 +29,11 @@
    z-index: -1;
 }
 
+@media (max-width: 767px) {
+   .image-en {
+      transform: translate(-48%, 75.5%);
+   }
+}
 
 .content {
    display: flex;

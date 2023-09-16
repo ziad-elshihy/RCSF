@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { dataContext } from '../context/Context';
+import { dataContext } from '../../context/Context';
 // import Swiper core and required modules
 import { Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,9 +7,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import "../components/slider.css"
+// import "../components/slider.css"
 const StrategicGoals = () => {
-   const { lang, setLang } = useContext(dataContext)
+   const { lang } = useContext(dataContext)
    return (
       <Swiper
          // install Swiper modules
@@ -21,7 +21,7 @@ const StrategicGoals = () => {
          scrollbar={{ draggable: true }}
          loop={true}
       >
-         <SwiperSlide className='slide__s2'>
+         <SwiperSlide  className='slide__s2'>
             <div className='content' >
                <h2>
                   {lang ? 'الأهداف الإستراتيجية' : 'Strategic Goals'}

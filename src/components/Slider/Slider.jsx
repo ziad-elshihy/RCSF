@@ -2,16 +2,16 @@
 import { Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useContext } from 'react'
-import { dataContext } from '../context/Context';
+import { dataContext } from '../../context/Context';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import image from '../assets/images/rscf (Large).png'
+import image from '../../assets/images/rscf (Large).png'
 import "./slider.css"
 function Slider() {
-   const { lang, setLang } = useContext(dataContext)
+   const { lang } = useContext(dataContext)
 
    return (
       <Swiper

@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import ExecutiveDirector from './Pages/ExecutiveDirector'
-import Navbar from './components/Navbar'
-import Slider from './components/Slider'
-import StrategicGoals from './Pages/StrategicGoals'
+
+import Navbar from './components/Nav/Navbar';
+import Slider from './components/Slider/Slider';
+import ExecutiveDirector from './Pages/ExecutiveDirector/ExecutiveDirector';
+import StrategicGoals from './Pages/StrategicGoals/StrategicGoals';
 
 const App = () => {
    
