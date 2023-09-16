@@ -7,7 +7,7 @@ const people = [
    },
    {
       id: 2,
-      image: 'https://www.course-api.com/images/people/person-4.jpeg',
+      image: '../../assets/images/photo_2023-05-03_20-48-00.jpg',
       name: 'Ziad Elshihy',
       title: 'the boss'
    },
