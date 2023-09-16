@@ -223,6 +223,8 @@ Link {
    column-gap: .5rem;
    font-weight: var(--font-semi-bold);
    transition: background-color .3s;
+   display: flex;
+   justify-content: space-between;
 }
 
 .dropdown__link i,
