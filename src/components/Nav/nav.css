@@ -140,7 +140,7 @@ Link {
       pointer-events: none;
       opacity: 0;
       transition: top .4s, opacity .3s;
-      margin-top: 20px;
+      margin-top: 15px;
    }
 
    .nav__menu::-webkit-scrollbar {
