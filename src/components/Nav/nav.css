@@ -119,6 +119,7 @@ Link {
 }
 
 
+
 .nav__burger {
    cursor: pointer;
 }
@@ -157,6 +158,12 @@ Link {
    }
 }
 
+@media (max-width:767px) {
+   .logo {
+      width: 55px;
+   }
+}
+
 .nav__link {
    color: var(--white-color);
    font-weight: var(--font-semi-bold);
@@ -179,6 +186,7 @@ Link {
       color: var(--black-color);
       transition: 0.3s;
    }
+
    a.nav__link:hover,
    li.nav__link:hover,
    div.nav__link:hover {

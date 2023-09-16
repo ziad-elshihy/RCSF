@@ -31,7 +31,9 @@
 
 @media (max-width: 767px) {
    .image-en {
-      transform: translate(-48%, 75.5%);
+      width: 300px;
+      height: 300px;
+      transform: translate(-48.5%, 96%);
    }
 }
 
