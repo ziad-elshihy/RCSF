@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
-// import { FaQuoteRight } from 'react-icons/fa';
 import data from './data'
 import './style.css'
 
-const EmployeeSlider = () => {
+const EmpSlider = () => {
    const [people, setPeople] = useState(data);
    const [index, setIndex] = useState(0);
 
@@ -55,4 +54,4 @@ const EmployeeSlider = () => {
    );
 }
 
-export default EmployeeSlider;
+export default EmpSlider;
