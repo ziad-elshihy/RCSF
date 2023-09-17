@@ -14,7 +14,7 @@ button {
    z-index: 99999;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1116px) {
    button {
       right: 140px;
       top: 30px;
