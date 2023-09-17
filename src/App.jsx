@@ -5,7 +5,7 @@ import ExecutiveDirector from './Pages/ExecutiveDirector/ExecutiveDirector';
 import StrategicGoals from './Pages/StrategicGoals/StrategicGoals';
 import Patrols from './Pages/Patrols/Patrols';
 import Home from './Pages/Home';
-import Regulations from './Pages/regulations/regulations';
+import Regulations from './Pages/regulations/Reg';
 
 const App = () => {
    

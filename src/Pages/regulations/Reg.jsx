@@ -5,7 +5,7 @@ import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import image from '../../assets/images/الهيئة-العامة-للرقابة-المالية.webp'
 import data from './data'
 import "./reg.css"
-const Regulations = () => {
+const Reg = () => {
    const { lang } = useContext(dataContext)
    const [titles, setTitles] = useState(data)
    return (
@@ -39,4 +39,4 @@ const Regulations = () => {
    )
 }
 
-export default Regulations
+export default Reg
