@@ -11,6 +11,7 @@ button {
    cursor: pointer;
    transition: 0.3s;
    font-weight: 800;
+   z-index: 99999;
 }
 
 @media (max-width: 991px) {
