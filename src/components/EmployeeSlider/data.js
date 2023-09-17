@@ -2,7 +2,7 @@ const people = [
    {
       id: 1,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Ahmed Hamdy',
       title: 'the boss'
    },
    {
