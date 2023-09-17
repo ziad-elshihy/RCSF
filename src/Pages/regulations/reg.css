@@ -60,7 +60,7 @@ ul {
    }
 }
 
-/* Start Components
+/* Start Components */
 .main-title {
    font-size: 30px;
    margin: 0 auto 80px;
@@ -112,7 +112,7 @@ ul {
 
 .main-title:hover::after {
    animation: right-move 0.5s linear forwards;
-} */
+} 
 
 /* End Components */
 /* End Global Rules */
