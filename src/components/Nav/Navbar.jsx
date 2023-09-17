@@ -40,7 +40,7 @@ const Navbar = () => {
                         to='/'
                         onClick={() => setShow(false)}
                      >
-                        {lang ? ' الصفحة الرئيسية' : 'Home'}
+                        {lang ? 'الصفحة الرئيسية' : 'Home'}
                      </Link>
                   </li>
                   {/* <!--=============== DROPDOWN 1 ===============--> */}
@@ -51,13 +51,8 @@ const Navbar = () => {
 
                      <ul className="dropdown__menu">
                         <li className="dropdown__link dropdown__about">
-                           {lang ? 'الرسالة' : 'Mission'}
+                           {lang ? 'الرؤية والرسالة' : 'Mission & Vision'}
                         </li>
-
-                        <li className="dropdown__link dropdown__about">
-                           {lang ? 'الرؤية' : 'Vision'}
-                        </li>
-
                         <li>
                            <Link
                               className="dropdown__link dropdown__about"
@@ -138,7 +133,7 @@ const Navbar = () => {
                      </div>
                      <ul className="dropdown__menu">
                         <li className="dropdown__link">
-                           {lang ? 'كتب' : '   Books'}
+                           {lang ? 'دراسات' : 'Studies'}
                         </li>
                         <li >
                            <Link
