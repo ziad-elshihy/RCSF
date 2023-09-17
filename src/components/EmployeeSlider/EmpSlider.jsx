@@ -1,56 +1,163 @@
-import React, { useState, useEffect } from 'react';
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
-import data from './data'
+// import Swiper core and required modules
+import { Pagination, Scrollbar, A11y } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import './style.css'
-
 const EmpSlider = () => {
-   const [people, setPeople] = useState(data);
-   const [index, setIndex] = useState(0);
-
-   useEffect(() => {
-      const lastIndex = people.length - 1;
-      if (index < 0) {
-         setIndex(lastIndex);
-      }
-      if (index > lastIndex) {
-         setIndex(0);
-      }
-   }, [index, people]);
    return (
-      <section className="section">
-         <div className="container">
-            <div className="section-center">
-               {people.map((person, personIndex) => {
-                  const { id, image, name, title } = person;
-                  let position = 'nextSlide';
-                  if (personIndex === index) {
-                     position = 'activeSlide';
-                  }
-                  if (
-                     personIndex === index - 1 ||
-                     (index === 0 && personIndex === people.length - 1)
-                  ) {
-                     position = 'lastSlide';
-                  }
-                  return (
-                     <article className={position} key={id}>
-                        <div></div>
-                        <img src={image} alt={name} className="person-img" />
-                        <h4>{name}</h4>
-                        <p className="title">{title}</p>
-                     </article>
-                  );
-               })}
-               <button className="prev" onClick={() => setIndex(index - 1)}>
-                  <AiOutlineArrowLeft />
-               </button>
-               <button className="next" onClick={() => setIndex(index + 1)}>
-                  <AiOutlineArrowRight />
-               </button>
-            </div>
-         </div>
-      </section>
-   );
-}
+      <>
+         <Swiper
+            // install Swiper modules
+            modules={[Pagination, Scrollbar, A11y]}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+         >
+            <SwiperSlide className='slide'>
+               <div className="container">
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+               </div>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+               <div className="container">
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+               </div>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+               <div className="container">
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+               </div>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+               <div className="container">
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+               </div>
+            </SwiperSlide>
+            <SwiperSlide className='slide'>
+               <div className="container">
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+                  <div>
+                     <img
+                        src='https://www.course-api.com/images/people/person-4.jpeg'
+                        alt='ziad'
+                        className="person-img"
+                     />
+                     <h4>Ziad Elshihy</h4>
+                     <p className="title">The boss</p>
+                  </div>
+               </div>
+            </SwiperSlide>
+         </Swiper >
+      </>
 
+   );
+};
 export default EmpSlider;

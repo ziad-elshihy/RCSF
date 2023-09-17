@@ -7,19 +7,19 @@ const people = [
    },
    {
       id: 2,
-      image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
-      title: 'the boss'
-   },
-   {
-      id: 3,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
       name: 'Ziad Elshihy',
       title: 'the boss'
    },
    {
-      id: 4,
+      id: 3,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
+      name: 'Ziad Elshihy',
+      title: 'the boss'
+   },
+   {
+      id: 4,
+      image: 'https://www.course-api.com/images/people/person-3.jpeg',
       name: 'Ziad Elshihy',
       title: 'the boss'
    }, {

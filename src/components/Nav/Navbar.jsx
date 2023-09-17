@@ -98,6 +98,15 @@ const Navbar = () => {
                   <li className="nav__link main-link">
                      {lang ? 'أنماط التمويل المستدام' : 'Sustainable Financing Patterns'}
                   </li>
+                  <li >
+                     <Link
+                        to='/Regulations'
+                        className="nav__link main-link"
+                        onClick={() => setShow(false)}
+                     >
+                        {lang ? 'قرارات وتشريعات' : 'Regulations & Legislation'}
+                     </Link>
+                  </li>
                   {/* <!--=============== DROPDOWN 2 ===============--> */}
                   <li className="dropdown__item">
                      <div className="nav__link main-link">
