@@ -2,8 +2,8 @@ const people = [
    {
       id: 1,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ahmed Hamdy',
-      title: 'the boss'
+      name: 'Dr. Mahmoud Mohieldin',
+      title: 'CHAIRMAN'
    },
    {
       id: 2,
@@ -14,59 +14,59 @@ const people = [
    {
       id: 3,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Ms. Nada El Agizy',
       title: 'the boss'
    },
    {
       id: 4,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Mr. Hussein Abaza',
       title: 'the boss'
    }, {
       id: 5,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Sonja Gibbs',
       title: 'the boss'
    },
    {
       id: 6,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Mark Halle',
       title: 'the boss'
    },
    {
       id: 7,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Dalia Abd Alkader',
       title: 'the boss'
    },
    {
       id: 8,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Robert Patalano',
       title: 'the boss'
    }, {
       id: 9,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Dr. May Abulnaga',
       title: 'the boss'
    },
    {
       id: 10,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Dr. Obaid Saif Hamad Al Zaabi ',
       title: 'the boss'
    },
    {
       id: 11,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'Dr. Aisha Mahmood ',
       title: 'the boss'
    },
    {
       id: 12,
       image: 'https://www.course-api.com/images/people/person-3.jpeg',
-      name: 'Ziad Elshihy',
+      name: 'James Zhan',
       title: 'the boss'
    },
 ];
