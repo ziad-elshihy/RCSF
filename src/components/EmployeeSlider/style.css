@@ -114,8 +114,11 @@ h4 {
    align-items: center;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-   color: #217443;
-}
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+   width: 15px;
+   height: 15px;
+   background-color: #217443;
+}
