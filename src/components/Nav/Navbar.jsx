@@ -25,7 +25,7 @@ const Navbar = () => {
                <div className="nav__toggle" id="nav-toggle">
                   <GiHamburgerMenu
                      onClick={() => setShow(!show)}
-                     className='nav__burger'
+                     className='nav__burger icon'
                      size={30}
                   />
                </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
             {/* <!--=============== NAV MENU ===============--> */}
             <div className={show ? 'nav__menu show-menu' : 'nav__menu'} dir={lang && 'rtl'} id="nav-menu">
-               <ul className="nav__list">
+               <ul className={lang ? "nav__list" : "nav__list nav__list__en"}>
                   <li >
                      <Link
                         className="nav__link main-link"
@@ -50,8 +50,14 @@ const Navbar = () => {
                      </div>
 
                      <ul className="dropdown__menu">
-                        <li className="dropdown__link dropdown__about">
-                           {lang ? 'الرؤية والرسالة' : 'Mission & Vision'}
+                        <li>
+                           <Link
+                              className="dropdown__link dropdown__about"
+                              to='/mission&vision'
+                              onClick={() => setShow(false)}
+                           >
+                              {lang ? 'الرؤية والرسالة' : 'Mission & Vision'}
+                           </Link>
                         </li>
                         <li>
                            <Link

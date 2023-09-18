@@ -59,7 +59,7 @@ Slider
 h4 {
    text-transform: uppercase;
    color: var(--clr-primary-5);
-   margin-bottom: 0.25rem;
+   margin-bottom: 0.50rem;
    text-align: center;
 }
 
@@ -67,6 +67,9 @@ h4 {
    text-transform: capitalize;
    color: var(--clr-grey-3);
    text-align: center;
+   font-size: 12px;
+   font-weight: bold;
+   color: #777;
 }
 
 @media (max-width: 767px) {
@@ -102,13 +105,13 @@ h4 {
    padding: 50px 0;
    display: flex;
    align-items: center;
+   text-align: center;
 }
 
 .slide .container {
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-   gap: 20px;
 }
 
 .swiper-button-next,

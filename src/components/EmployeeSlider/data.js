@@ -14,7 +14,7 @@ const people = [
    {
       id: 3,
       image: 'https://www.course-api.com/images/people/person-4.jpeg',
-      name: 'Ms. Nada El Agizy',
+      name: 'Ms. Nada ElAgizy',
       title: 'the boss'
    },
    {
@@ -69,6 +69,12 @@ const people = [
       name: 'James Zhan',
       title: 'the boss'
    },
+   {
+      id: 13,
+      image: 'https://www.course-api.com/images/people/person-3.jpeg',
+      name: 'James Zhan',
+      title: 'the boss'
+   }
 ];
 
 export default people;

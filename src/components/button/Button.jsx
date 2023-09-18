@@ -10,7 +10,7 @@ const Button = () => {
          onClick={() => { setLang(!lang) }}
       >
          {
-            lang ? "English" : "العربية"
+            lang ? "En" : "ع"
          }
       </button>
    )

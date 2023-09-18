@@ -5,8 +5,8 @@ button {
    position: fixed;
    outline: none;
    border: none;
-   right: 30px;
-   top: 150px;
+   right: 20px;
+   top: 22px;
    border-radius: 10px;
    cursor: pointer;
    transition: 0.3s;

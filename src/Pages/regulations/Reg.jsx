@@ -17,17 +17,22 @@ const Reg = () => {
                   titles.map((item, id) => {
                      return (
                         <div className="box" key={id}>
-                           <img src={image} alt="الهيئة العامة"/>
+                           <img src={image} alt="الهيئة العامة" />
                            <div className="cont">
                               <h3>{item.title}</h3>
                               <p>{item.description}</p>
                            </div>
                            <div className="info" dir={!lang && 'ltr'}>
-                              <a href="./110- 2021.pdf">{lang ? 'تحميل الملف' : 'Read file'}</a>
+                              <a
+                                 href="../../assets/images/FRA.png"
+                                 download
+                              >
+                                 {lang ? 'تحميل الملف' : 'Download file'}
+                              </a>
                               {
                                  lang ? <BsArrowRight className='icon' /> : <BsArrowLeft className='icon' />
                               }
-                              
+
                            </div>
                         </div>
                      )

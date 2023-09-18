@@ -1,11 +1,11 @@
 import React from 'react'
-import Slider from '../components/Slider/Slider'
 import EmployeeSlider from '../components/EmployeeSlider/EmpSlider'
+import HomePage from '../components/mainsection/HomePage'
 
 const Home = () => {
    return (
       <>
-         <Slider />
+         <HomePage />
          <EmployeeSlider />
       </>
    )
