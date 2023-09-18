@@ -139,7 +139,7 @@ ul {
 
 .articles .box {
    box-shadow: 0 2px 30px rgb(0 0 0 / 10%);
-   background-color:rgb(30, 42, 54);
+   background-color: transparent;
    border-radius: 6px;
    overflow: hidden;
    transition: transform var(--main-transition), box-shadow var(--main-transition);
