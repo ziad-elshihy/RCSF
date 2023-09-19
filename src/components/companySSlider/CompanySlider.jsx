@@ -3,7 +3,7 @@ import img1 from '../../assets/img-slider/Picture1.jpg'
 import img2 from '../../assets/img-slider/Picture2.png'
 import img3 from '../../assets/img-slider/Picture3.jpg'
 import img4 from '../../assets/img-slider/Picture5.jpg'
-import img5 from '../../assets/img-slider/Picture6.png'
+import img5 from '../../assets/img-slider/undp-logo-5682674D5C-seeklogo.com.png'
 import img6 from '../../assets/img-slider/Picture8.png'
 import img7 from '../../assets/img-slider/Picture9.png'
 import img8 from '../../assets/img-slider/Picture10.jpg'
@@ -15,6 +15,7 @@ import img11 from '../../assets/img-slider/undp-logo-5682674D5C-seeklogo.com.png
 import { useContext } from 'react'
 import { dataContext } from '../../context/Context';
 
+import img11 from '../../assets/img-slider/Picture6.png'
 const CompanySlider = () => {
    const { lang } = useContext(dataContext)
    return (
