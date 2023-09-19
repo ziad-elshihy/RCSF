@@ -20,10 +20,8 @@ h2 {
 
 .slider {
    height: 200px;
-   margin: auto;
    overflow: hidden;
    position: relative;
-   width: 80%;
 }
 
 .slider .slide-track {
@@ -40,10 +38,10 @@ h2 {
 }
 
 .slider .slide img {
-   width: 300px;
+   width: 100%;
    height: 150px;
    border-radius: 3px;
-   border: 2px solid #bbbbbb;
+   border: 2px solid #eee;
 }
 
 @-webkit-keyframes scroll {
