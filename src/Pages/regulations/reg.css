@@ -125,7 +125,7 @@ ul {
    padding-bottom: var(--main-padding-bottom);
    position: relative;
    /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)); */
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('/src/assets/images/NEUMORPHIC_CIRCLES_BACKGROUND.jpg');
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('/src/assets/images/Harvey.jpg');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;

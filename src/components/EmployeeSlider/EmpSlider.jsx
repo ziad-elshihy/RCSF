@@ -39,13 +39,13 @@ const EmpSlider = () => {
                   <div>
                      <img
                         src={img1}
-                        alt='dr.mohieldin'
+                        alt='dr. mohieldin'
                         className="person-img"
                      />
-                     <h4>dr. mohieldin</h4>
+                     <h4>dr. Mahmoud mohieldin</h4>
                      <p className="title">
-                        EXECUTIVE DIRECTOR AT
-                        <br />THE INTERNATIONAL MONETARY FUND
+                     Executive Director At
+                        <br />The International Monetary FUND<br />Elected Chairman
                      </p>
                   </div>
                   <div>
@@ -57,7 +57,7 @@ const EmpSlider = () => {
                      <h4>Dr. Mohamed Farid Saleh</h4>
                      <p className="title">
                         Executive Chairman
-                        <br />Financial Regulatory Authority
+                        <br />Financial Regulatory Authority (FRA)
                      </p>
                   </div>
                </div>
@@ -72,9 +72,9 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. NADA AL AGEZY</h4>
                      <p className="title">
-                        DIRECTOR OF SUSTAINABLE
-                        <br />DEVELOPMENT AND INTERNATIONAL
-                        <br />COOPERATION DEPARTMENT
+                        Director Of Sustainable
+                        <br /> Development And International
+                        <br /> Cooperation Department
                      </p>
                   </div>
                   <div>
@@ -83,12 +83,12 @@ const EmpSlider = () => {
                         alt='Sonja Gibbs'
                         className="person-img"
                      />
-                     <h4>Sonja Gibbs</h4>
+                     <h4>MS. Sonja Gibbs</h4>
                      <p className="title">
-                        MANAGING DIRECTOR
-                        <br />AND HEAD OF SUSTAINABLE
-                        <br />FINANCE, GLOBAL POLICY
-                        <br />INITIATIVES, INSTITUTE OF INTERNATIO
+                        Managing Director
+                        <br />And Head Of Sustainable
+                        <br />Finance, Global Policy
+                        <br /> Initiatives, Institute Of International Finance (IIF)
                      </p>
                   </div>
                   <div>
@@ -97,12 +97,12 @@ const EmpSlider = () => {
                         alt='Mark Halle'
                         className="person-img"
                      />
-                     <h4>Mark Halle</h4>
+                     <h4>MS. Mark Halle</h4>
                      <p className="title">
                         Senior Advisor
-                        <br />UN Environment International
+                        <br />Un Environment International
                         <br />Network of Financial Centers
-                        <br />for Sustainability
+                        <br />for Sustainability (FC4S)
                      </p>
                   </div>
                </div>
@@ -115,9 +115,9 @@ const EmpSlider = () => {
                         alt='Robert Patalano'
                         className="person-img"
                      />
-                     <h4>Robert Patalano</h4>
+                     <h4>MR. Robert Patalano</h4>
                      <p className="title">
-                        Acting Head of Division at
+                        Acting Head Of Division At
                         <br />OECD - Financial Markets Division
                      </p>
                   </div>
@@ -127,10 +127,10 @@ const EmpSlider = () => {
                         alt='Dalia Abd Alkader'
                         className="person-img"
                      />
-                     <h4>Dalia Abd Alkader</h4>
+                     <h4>DR. Dalia Abd Alkader</h4>
                      <p className="title">
-                        Chief Sustainability Officer of
-                        <br/> Commercial International Bank
+                        Chief Sustainability Officer Of
+                        <br /> Commercial International Bank (CIB)
                      </p>
                   </div>
                   <div>
@@ -142,7 +142,7 @@ const EmpSlider = () => {
                      <h4>Dr. ElSayed Torky</h4>
                      <p className="title">
                         Senior Advisor at
-                        <br/> the Federation of Egyptian Industries
+                        <br /> the Federation of Egyptian Industries
                      </p>
                   </div>
                </div>
@@ -157,8 +157,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. Aisha Mahmood</h4>
                      <p className="title">
-                        Special Advisor to 
-                        <br/>the Governor on Sustainable Banking, Nigeria
+                        Special Advisor to THE GOVERNOR
+                        <br />  ON SUSTAINABLE BANKING Central Bank of Nigeria (CBN)
                      </p>
                   </div>
                   <div>
@@ -170,7 +170,7 @@ const EmpSlider = () => {
                      <h4>Dr. Obaid Saif Hamad Al Zaabi</h4>
                      <p className="title">
                         Former Chief Executive Officer at
-                        <br/>Securities and Commodities Authority, UAE
+                        <br />Securities and Commodities Authority, UAE
                      </p>
                   </div>
                   <div>
@@ -179,11 +179,11 @@ const EmpSlider = () => {
                         alt='James Zhan'
                         className="person-img"
                      />
-                     <h4>James Zhan</h4>
+                     <h4>Mr.James Zhan</h4>
                      <p className="title">
-                        Director of the Investment and Enterprise 
-                        <br/>Division at United Nations 
-                        <br/>Conference on Trade and Developme
+                        Director Of The Investment And Enterprise
+                        <br />Division At United Nations
+                        <br />Conference On Trade And Development (UNCTAD)
                      </p>
                   </div>
                </div>
@@ -198,8 +198,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. May Abulnaga</h4>
                      <p className="title">
-                        First Sub Governor - Technical 
-                        <br/>Office of the CBE Governor
+                        First Sub Governor - Technical Office Of The CBE Governor
+                        <br /> Financial Inclusion Sector Banking Reform Sector Central Bank of Egypt
                      </p>
                   </div>
                   <div>
@@ -210,8 +210,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. Anthony Miller</h4>
                      <p className="title">
-                        United Nations Sustainable Stock 
-                        <br/>Exchanges initiative Coordinator
+                        United Nations Sustainable Stock
+                        <br />Exchanges Initiative Coordinator
                      </p>
                   </div>
                   <div>
@@ -222,7 +222,7 @@ const EmpSlider = () => {
                      />
                      <h4>DR. HUSSEIN ABAZA</h4>
                      <p className="title">
-                        SUSTAINABILITY EXPERT & ADVISOR
+                        Sustainability  Expert & Advisor
                      </p>
                   </div>
                </div>
