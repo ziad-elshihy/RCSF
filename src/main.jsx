@@ -6,10 +6,10 @@ import { Context } from './context/Context.jsx';
 import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
    <React.StrictMode>
-      <Context>
-         <BrowserRouter>
+      <BrowserRouter>
+         <Context>
             <App />
-         </BrowserRouter>
-      </Context>
+         </Context>
+      </BrowserRouter>
    </React.StrictMode>,
 )
