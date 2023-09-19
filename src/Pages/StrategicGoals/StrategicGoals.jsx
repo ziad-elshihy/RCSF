@@ -65,13 +65,13 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? ' الهدف الثاني' : 'Second goal'}
+                     {lang ? ' الهدف الثالث' : 'Third goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
                         lang
-                           ? 'بناء القدرات الجهات التابعة للهيئة العامة للرقابة المالية فيما يتعلق بالاستدامة'
-                           : "Capacity building of entities affiliated with the Financial Regulatory Authority regarding sustainability"
+                           ? 'بناء الشراكات الاستراتيجية محلياً وإقليمياً ودولياً  '
+                           : "Building strategic partnerships locally, regionally and internationally"
                      }
                   </h3>
                </div>
@@ -84,15 +84,16 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? ' الهدف الثاني' : 'Second goal'}
+                     {lang ? 'الهدف الرابع' : 'Fourth goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
                         lang
-                           ? 'بناء القدرات الجهات التابعة للهيئة العامة للرقابة المالية فيما يتعلق بالاستدامة'
-                           : "Capacity building of entities affiliated with the Financial Regulatory Authority regarding sustainability"
+                           ? ' إتاحة وتبادل الخبرات والمعرفة فيما يتعلق بالتمويل المستدام'
+                           : "Providing and exchanging experiences and knowledge regarding sustainable finance"
                      }
-                  </h3>               </div>
+                  </h3>
+               </div>
             </div>
             <a href="#landing-5" className="go-down">
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
@@ -100,15 +101,15 @@ const StrategicGoals = () => {
          </section>
          <section className="landing" id="landing-5">
             <div className="container">
-               <div className="gols">
+               <div className="text">
                   <h2>
-                     {lang ? ' الهدف الثاني' : 'Second goal'}
+                     {lang ? 'الهدف الخامس' : 'Fifth goal'}
                   </h2>
-                  <h3 dir={lang ? 'rtl' : 'ltr'} >
+                  <h3 dir={lang ? 'ltr' : 'rtl'} >
                      {
                         lang
-                           ? 'بناء القدرات الجهات التابعة للهيئة العامة للرقابة المالية فيما يتعلق بالاستدامة'
-                           : "Capacity building of entities affiliated with the Financial Regulatory Authority regarding sustainability"
+                           ? 'المشاركة في رفع التوصيات الخاصة بالقواعد والإجراءات والمعايير اللازمة لضمان استدامة الأسواق واستحداث أسواق مالية جديدة'
+                           : "Participate in submitting recommendations for the rules, procedures and standards necessary to ensure the sustainability of markets and the development of new financial markets"
                      }
                   </h3>
                </div>

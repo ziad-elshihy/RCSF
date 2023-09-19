@@ -24,7 +24,7 @@ const Reg = () => {
                            </div>
                            <div className="info" dir={lang ? 'rtl' : 'ltr'}>
                               <a
-                                 href="../../assets/images/FRA.png"
+                                 href={item.file}
                                  download
                               >
                                  {lang ? 'تحميل الملف' : 'Download file'}
