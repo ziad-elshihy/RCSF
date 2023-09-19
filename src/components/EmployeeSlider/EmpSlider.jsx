@@ -56,8 +56,8 @@ const EmpSlider = () => {
                         alt='dr. mohieldin'
                         className="person-img"
                      />
-                     <h4>dr. Mahmoud mohieldin</h4>
-                     <p className="title">
+                     <h4 className='name'>dr. Mahmoud mohieldin</h4>
+                     <p className="job-title">
                      Executive Director At
                         <br />The International Monetary FUND<br />Elected Chairman
                      </p>
@@ -68,8 +68,8 @@ const EmpSlider = () => {
                         alt='Dr. Mohamed Farid Saleh'
                         className="person-img"
                      />
-                     <h4>Dr. Mohamed Farid Saleh</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. Mohamed Farid Saleh</h4>
+                     <p className="job-title">
                         Executive Chairman
                         <br />Financial Regulatory Authority (FRA)
                      </p>
@@ -84,8 +84,8 @@ const EmpSlider = () => {
                         alt='Dr. NADA AL AGEZY'
                         className="person-img"
                      />
-                     <h4>Dr. NADA AL AGEZY</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. NADA AL AGEZY</h4>
+                     <p className="job-title">
                         Director Of Sustainable
                         <br /> Development And International
                         <br /> Cooperation Department
@@ -97,8 +97,8 @@ const EmpSlider = () => {
                         alt='Sonja Gibbs'
                         className="person-img"
                      />
-                     <h4>MS. Sonja Gibbs</h4>
-                     <p className="title">
+                     <h4 className='name'>MS. Sonja Gibbs</h4>
+                     <p className="job-title">
                         Managing Director
                         <br />And Head Of Sustainable
                         <br />Finance, Global Policy
@@ -111,8 +111,8 @@ const EmpSlider = () => {
                         alt='Mark Halle'
                         className="person-img"
                      />
-                     <h4>MS. Mark Halle</h4>
-                     <p className="title">
+                     <h4 className='name'>MS. Mark Halle</h4>
+                     <p className="job-title">
                         Senior Advisor
                         <br />Un Environment International
                         <br />Network of Financial Centers
@@ -129,8 +129,8 @@ const EmpSlider = () => {
                         alt='Robert Patalano'
                         className="person-img"
                      />
-                     <h4>MR. Robert Patalano</h4>
-                     <p className="title">
+                     <h4 className='name'>MR. Robert Patalano</h4>
+                     <p className="job-title">
                         Acting Head Of Division At
                         <br />OECD - Financial Markets Division
                      </p>
@@ -141,8 +141,8 @@ const EmpSlider = () => {
                         alt='Dalia Abd Alkader'
                         className="person-img"
                      />
-                     <h4>DR. Dalia Abd Alkader</h4>
-                     <p className="title">
+                     <h4 className='name'>DR. Dalia Abd Alkader</h4>
+                     <p className="job-title">
                         Chief Sustainability Officer of
                         <br/> Commercial International Bank
                      </p>
@@ -153,8 +153,8 @@ const EmpSlider = () => {
                         alt='ziad'
                         className="person-img"
                      />
-                     <h4>Dr. ElSayed Torky</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. ElSayed Torky</h4>
+                     <p className="job-title">
                         Senior Advisor at
                         <br /> the Federation of Egyptian Industries
                      </p>
@@ -169,8 +169,8 @@ const EmpSlider = () => {
                         alt='Dr. Aisha Mahmood'
                         className="person-img"
                      />
-                     <h4>Dr. Aisha Mahmood</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. Aisha Mahmood</h4>
+                     <p className="job-title">
                         Special Advisor to 
                         <br/>the Governor on Sustainable Banking, Nigeria
                      </p>
@@ -178,11 +178,11 @@ const EmpSlider = () => {
                   <div>
                      <img
                         src={img10}
-                        alt='Dr. Obaid Saif Hamad Al Zaabi'
+                        alt='Dr. Obaid Al Zaabi'
                         className="person-img"
                      />
-                     <h4>Dr. Obaid Saif Hamad Al Zaabi</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. Obaid Al Zaabi</h4>
+                     <p className="job-title">
                         Former Chief Executive Officer at
                         <br />Securities and Commodities Authority, UAE
                      </p>
@@ -193,8 +193,8 @@ const EmpSlider = () => {
                         alt='James Zhan'
                         className="person-img"
                      />
-                     <h4>Mr.James Zhan</h4>
-                     <p className="title">
+                     <h4 className='name'>Mr.James Zhan</h4>
+                     <p className="job-title">
                         Director of the Investment and Enterprise 
                         <br/>Division at United Nations 
                         <br/>Conference on Trade and Developme
@@ -210,8 +210,8 @@ const EmpSlider = () => {
                         alt='Dr. May Abulnaga'
                         className="person-img"
                      />
-                     <h4>Dr. May Abulnaga</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. May Abulnaga</h4>
+                     <p className="job-title">
                         First Sub Governor - Technical 
                         <br/>Office of the CBE Governor
                      </p>
@@ -222,8 +222,8 @@ const EmpSlider = () => {
                         alt='Dr. Anthony Miller'
                         className="person-img"
                      />
-                     <h4>Dr. Anthony Miller</h4>
-                     <p className="title">
+                     <h4 className='name'>Dr. Anthony Miller</h4>
+                     <p className="job-title">
                         United Nations Sustainable Stock 
                         <br/>Exchanges initiative Coordinator
                      </p>
@@ -234,8 +234,8 @@ const EmpSlider = () => {
                         alt='DR. HUSSEIN ABAZA'
                         className="person-img"
                      />
-                     <h4>DR. HUSSEIN ABAZA</h4>
-                     <p className="title">
+                     <h4 className='name'>DR. HUSSEIN ABAZA</h4>
+                     <p className="job-title">
                         Sustainability  Expert & Advisor
                      </p>
                   </div>

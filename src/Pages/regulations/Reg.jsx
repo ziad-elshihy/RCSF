@@ -22,7 +22,7 @@ const Reg = () => {
                               <h3>{item.title}</h3>
                               <p>{item.description}</p>
                            </div>
-                           <div className="info" dir={!lang && 'ltr'}>
+                           <div className="info" dir={lang ? 'rtl' : 'ltr'}>
                               <a
                                  href="../../assets/images/FRA.png"
                                  download

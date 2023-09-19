@@ -5,62 +5,6 @@
    box-sizing: border-box;
 }
 
-:root {
-   --main-color: #217443;
-   /* --main-color: #2196f3; */
-   --main-color-alt: #1787e0;
-   --green-color: #217443 --main-transition: 0.3s;
-   --main-padding-top: 200px;
-   --main-padding-bottom: 200px;
-   --section-background: #ececec;
-}
-
-html {
-   scroll-behavior: smooth;
-}
-
-body {
-   font-family: "Cairo", sans-serif;
-}
-
-a {
-   text-decoration: none;
-}
-
-ul {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-}
-
-.container {
-   padding-left: 15px;
-   padding-right: 15px;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-/* Small */
-@media (min-width: 768px) {
-   .container {
-      width: 750px;
-   }
-}
-
-/* Medium */
-@media (min-width: 992px) {
-   .container {
-      width: 970px;
-   }
-}
-
-/* Large */
-@media (min-width: 1200px) {
-   .container {
-      width: 1170px;
-   }
-}
-
 /* Start Components */
 .main-title {
    font-size: 30px;
@@ -85,7 +29,7 @@ ul {
    content: "";
    height: 12px;
    width: 12px;
-   background-color: var(--main-color);
+   background-color: #2da860;
    position: absolute;
    left: -30px;
    border-radius: 50%;
@@ -102,7 +46,7 @@ ul {
    content: "";
    height: 12px;
    width: 12px;
-   background-color: var(--main-color);
+   background-color: #2da860;
    position: absolute;
    right: -30px;
    border-radius: 50%;
@@ -113,7 +57,7 @@ ul {
 
 .main-title:hover::after {
    animation: right-move 0.5s linear forwards;
-} 
+}
 
 /* End Components */
 /* End Global Rules */
@@ -125,11 +69,7 @@ ul {
    padding-bottom: var(--main-padding-bottom);
    position: relative;
    /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)); */
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('/src/assets/images/Harvey.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
+   background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f);
 }
 
 .articles .container {
@@ -140,7 +80,7 @@ ul {
 
 .articles .box {
    box-shadow: 0 2px 30px rgb(0 0 0 / 10%);
-   background-color: transparent;
+   background-color: white;
    border-radius: 6px;
    overflow: hidden;
    transition: transform var(--main-transition), box-shadow var(--main-transition);
@@ -155,35 +95,34 @@ ul {
    width: 100%;
 }
 
-.articles .box .cont{
+.articles .box .cont {
    padding: 20px;
    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
    text-align: right;
    font-size: 17px;
    height: 210px;
-   color: var(--section-background);
+   color: black;
    height: 170px;
 }
 
 .articles .box .cont p {
    margin: 10px 0 0;
    line-height: 1.2;
-   color: var(--section-background);
 }
 
 .articles .box .info {
    padding: 20px;
    display: flex;
    justify-content: space-between;
+   color: blue;
 }
 
 .articles .box .info a {
-   color: var(--section-background);
    font-weight: bold;
 }
 
 .articles .box .info .icon {
-   color: var(--section-background);
+   color: blue;
 }
 
 .articles .box:hover .icon {

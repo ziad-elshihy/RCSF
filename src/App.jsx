@@ -7,6 +7,7 @@ import Patrols from './Pages/Patrols/Patrols';
 import Home from './Pages/Home';
 import Regulations from './Pages/regulations/Reg';
 import MissionVision from './Pages/mission&vision/MissionVision';
+import Footer from './components/footer/footer';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
             <Route path='/mission&vision' element={<MissionVision />} />
             {/* <Route path='*' element={<PageNotFound />} /> */}
          </Routes>
+         <Footer />
       </>
 
    )

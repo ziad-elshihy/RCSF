@@ -1,43 +1,202 @@
-.slides {
-   min-height: 100vh;
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/main.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Start Global Rules */
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
-.slides::after {
-   content: '';
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.5);
+:root {
+   --main-color: #4065aa;
+   --main-color-alt: #4065aa;
+   --main-transition: 0.3s;
+   --main-padding-top: 100px;
+   --main-padding-bottom: 100px;
+   --section-background: #ececec;
 }
 
-.slides .container {
+html {
+   scroll-behavior: smooth;
+}
+
+main {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   text-align: center;
+   background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f);
 }
 
-.slides .container .content {
+.landing {
+   font-family: "Cairo", sans-serif;
    position: relative;
-   z-index: 1;
+   width: 100%;
+}
+
+.landing .container {
+   height: 100vh;
    display: flex;
    flex-direction: column;
-   gap: 20px;
-   color: white;
+   align-items: center;
    text-align: center;
-   font-size: 20px;
+   line-height: 2;
+}
+
+.text {
+   flex: 1;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 991px) {
+   .landing .text {
+      text-align: center;
+      width: 90%;
+   }
+}
+
+.landing .text h1 {
+   align-items: center;
+   font-size: 40px;
+   letter-spacing: -2px;
 }
 
 @media (max-width: 767px) {
-   .slides .container .content {
-      font-size: 20px;
+   .landing .text h1 {
+      font-size: 28px;
    }
+
+   .landing .text h2 {
+      font-size: 28px;
+   }
+
+   .landing .text h3 {
+      font-size: 17px;
+   }
+}
+
+.landing .text span {
+   color: var(--main-color);
+}
+
+
+@media (max-width: 991px) {
+   .landing .image {
+      display: none;
+   }
+}
+
+.landing .go-down {
+   color: var(--main-color);
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: var(--main-transition);
+}
+
+.landing .go-down:hover {
+   color: var(--main-color-alt);
+}
+
+.landing .go-down .i {
+   animation: bouncing 1.5s infinite;
+}
+
+
+h2 {
+   font-size: 40px;
+   font-weight: bold;
+}
+
+h3 {
+   font-size: 25px;
+}
+
+/* End Landing */
+
+/* Start Animation */
+@keyframes left-move {
+   50% {
+      left: 0;
+      width: 12px;
+      height: 12px;
+   }
+
+   100% {
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+@keyframes right-move {
+   50% {
+      right: 0;
+      width: 12px;
+      height: 12px;
+   }
+
+   100% {
+      right: 0;
+      border-radius: 0;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+@keyframes up-and-down {
+
+   0%,
+   100% {
+      top: 0;
+   }
+
+   50% {
+      top: -50px;
+   }
+}
+
+@keyframes bouncing {
+
+   0%,
+   10%,
+   20%,
+   50%,
+   80%,
+   100% {
+      transform: translateY(0);
+   }
+
+   40%,
+   60% {
+      transform: translateY(-15px);
+   }
+}
+
+@keyframes left-right {
+   50% {
+      transform: translateX(-10px);
+   }
+}
+
+/* End Animation */
+#go-1,
+#go-2,
+#go-3,
+#go-4,
+#go-5 {
+   position: relative;
+   height: 100vh;
+}
+
+.gols {
+   position: absolute;
+   top: 5%0;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }

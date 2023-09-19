@@ -10,12 +10,12 @@ import img8 from '../../assets/img-slider/Picture10.jpg'
 import img9 from '../../assets/img-slider/Picture11.jpg'
 import img10 from '../../assets/img-slider/Picture12.jpg'
 import img11 from '../../assets/img-slider/undp-logo-5682674D5C-seeklogo.com.png'
+import img12 from '../../assets/img-slider/Picture6.png'
 
 
 import { useContext } from 'react'
 import { dataContext } from '../../context/Context';
 
-import img11 from '../../assets/img-slider/Picture6.png'
 const CompanySlider = () => {
    const { lang } = useContext(dataContext)
    return (
@@ -63,7 +63,9 @@ const CompanySlider = () => {
                   <div className=" slide">
                      <img src={img11} alt='img11' />
                   </div>
-
+                  <div className=" slide">
+                     <img src={img12} alt='img11' />
+                  </div>
                </div>
             </div>
          </div>

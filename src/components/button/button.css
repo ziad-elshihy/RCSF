@@ -1,4 +1,4 @@
-button {
+.language {
    padding: 10px 20px;
    color: white;
    background-color: #217443;
@@ -14,20 +14,20 @@ button {
 }
 
 @media (max-width: 1116px) {
-   button {
+   .language {
       right: 140px;
       top: 30px;
    }
 }
 
 @media (max-width: 767px) {
-   button {
+   .language {
       right: 70px;
       top: 20px;
    }
 }
 
-button:hover {
+.language:hover {
    background-color: white;
    color: #217443;
    scale: 1.05;

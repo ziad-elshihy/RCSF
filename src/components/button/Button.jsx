@@ -6,6 +6,7 @@ const Button = () => {
    const { lang, setLang } = useContext(dataContext)
    return (
       <button
+      className='language'
          type='button'
          onClick={() => { setLang(!lang) }}
       >
