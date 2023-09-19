@@ -24,9 +24,23 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import './style.css'
+
+import { useContext } from 'react'
+import { dataContext } from '../../context/Context';
+
+
 const EmpSlider = () => {
+   const { lang } = useContext(dataContext)
+
    return (
       <>
+         <h2 className='meet'>
+            {
+               lang
+                  ? 'المجلس الإستشاري'
+                  : 'Meet RCSF advisory Board'
+            }
+         </h2>
          <Swiper
             // install Swiper modules
             modules={[Pagination, Scrollbar, A11y, Autoplay]}
@@ -130,7 +144,7 @@ const EmpSlider = () => {
                      <h4>Dalia Abd Alkader</h4>
                      <p className="title">
                         Chief Sustainability Officer of
-                        <br/> Commercial International Bank
+                        <br /> Commercial International Bank
                      </p>
                   </div>
                   <div>
@@ -142,7 +156,7 @@ const EmpSlider = () => {
                      <h4>Dr. ElSayed Torky</h4>
                      <p className="title">
                         Senior Advisor at
-                        <br/> the Federation of Egyptian Industries
+                        <br /> the Federation of Egyptian Industries
                      </p>
                   </div>
                </div>
@@ -157,8 +171,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. Aisha Mahmood</h4>
                      <p className="title">
-                        Special Advisor to 
-                        <br/>the Governor on Sustainable Banking, Nigeria
+                        Special Advisor to
+                        <br />the Governor on Sustainable Banking, Nigeria
                      </p>
                   </div>
                   <div>
@@ -170,7 +184,7 @@ const EmpSlider = () => {
                      <h4>Dr. Obaid Saif Hamad Al Zaabi</h4>
                      <p className="title">
                         Former Chief Executive Officer at
-                        <br/>Securities and Commodities Authority, UAE
+                        <br />Securities and Commodities Authority, UAE
                      </p>
                   </div>
                   <div>
@@ -181,9 +195,9 @@ const EmpSlider = () => {
                      />
                      <h4>James Zhan</h4>
                      <p className="title">
-                        Director of the Investment and Enterprise 
-                        <br/>Division at United Nations 
-                        <br/>Conference on Trade and Developme
+                        Director of the Investment and Enterprise
+                        <br />Division at United Nations
+                        <br />Conference on Trade and Developme
                      </p>
                   </div>
                </div>
@@ -198,8 +212,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. May Abulnaga</h4>
                      <p className="title">
-                        First Sub Governor - Technical 
-                        <br/>Office of the CBE Governor
+                        First Sub Governor - Technical
+                        <br />Office of the CBE Governor
                      </p>
                   </div>
                   <div>
@@ -210,8 +224,8 @@ const EmpSlider = () => {
                      />
                      <h4>Dr. Anthony Miller</h4>
                      <p className="title">
-                        United Nations Sustainable Stock 
-                        <br/>Exchanges initiative Coordinator
+                        United Nations Sustainable Stock
+                        <br />Exchanges initiative Coordinator
                      </p>
                   </div>
                   <div>
