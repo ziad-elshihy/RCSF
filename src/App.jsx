@@ -7,7 +7,7 @@ import Patrols from './Pages/Patrols/Patrols';
 import Home from './Pages/Home';
 import Regulations from './Pages/regulations/Reg';
 import MissionVision from './Pages/mission&vision/MissionVision';
-import Footer from './components/footer/footer';
+import Footer from './components/footer/Footer';
 
 const App = () => {
 
