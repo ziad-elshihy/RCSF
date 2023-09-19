@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li>
                            <Link
                               className="dropdown__link dropdown__about"
-                              to='/StrategicGoals'
+                              to='/strategicGoals'
                               onClick={() => setShow(false)}
                            >
                               {lang ? "الأهداف الإستراتيجية للمركز" : "The centre's strategic goals"}
@@ -101,7 +101,7 @@ const Navbar = () => {
                   </li>
                   <li >
                      <Link
-                        to='/Regulations'
+                        to='/regulations'
                         className="nav__link main-link"
                         onClick={() => setShow(false)}
                      >
@@ -144,7 +144,7 @@ const Navbar = () => {
                         <li >
                            <Link
                               className="dropdown__link"
-                              to='/Patrols'
+                              to='/patrols'
                               onClick={() => setShow(false)}
                            >
                               {lang ? 'دوريات' : 'Patrols'}

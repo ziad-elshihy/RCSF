@@ -19,9 +19,9 @@ const App = () => {
             <Routes >
                <Route path='/' element={<Home />} />
                <Route path='/director' element={<ExecutiveDirector />} />
-               <Route path='/StrategicGoals' element={<StrategicGoals />} />
-               <Route path='/Patrols' element={<Patrols />} />
-               <Route path='/Regulations' element={<Regulations />} />
+               <Route path='/strategicGoals' element={<StrategicGoals />} />
+               <Route path='/patrols' element={<Patrols />} />
+               <Route path='/regulations' element={<Regulations />} />
                <Route path='/mission&vision' element={<MissionVision />} />
                {/* <Route path='*' element={<PageNotFound />} /> */}
             </Routes>
