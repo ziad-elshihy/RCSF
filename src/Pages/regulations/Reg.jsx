@@ -22,18 +22,17 @@ const Reg = () => {
                               <h3>{item.title}</h3>
                               <p>{item.description}</p>
                            </div>
-                           <div className="info" dir={lang ? 'rtl' : 'ltr'}>
-                              <a
-                                 href={item.file}
-                                 download
-                              >
-                                 {lang ? 'تحميل الملف' : 'Download file'}
-                              </a>
+                           <a
+                              dir={lang ? 'rtl' : 'ltr'}
+                              className="info"
+                              href={item.file}
+                              download
+                           >
+                              {lang ? 'تحميل الملف' : 'Download file'}
                               {
                                  lang ? <BsArrowRight className='icon' /> : <BsArrowLeft className='icon' />
                               }
-
-                           </div>
+                           </a>
                         </div>
                      )
                   })

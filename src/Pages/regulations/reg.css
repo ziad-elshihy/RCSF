@@ -115,11 +115,9 @@
    display: flex;
    justify-content: space-between;
    color: blue;
-}
-
-.articles .box .info a {
    font-weight: bold;
 }
+
 
 .articles .box .info .icon {
    color: blue;
