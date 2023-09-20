@@ -17,7 +17,7 @@ const Footer = () => {
                      </a>
                   </li>
                   <li>
-                     <a href="#" className="linkedin">
+                     <a href="https://www.linkedin.com/company/the-regional-center-for-sustainable-finance-rcsf/" className="linkedin">
                         <BiLogoLinkedin size={30} />
                      </a>
                   </li>
