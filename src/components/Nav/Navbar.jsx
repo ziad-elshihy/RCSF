@@ -151,7 +151,7 @@ const Navbar = () => {
                            </Link>
                         </li>
                         <li className="dropdown__link">
-                           {lang ? "بلاغات" : 'Reports'}
+                           {lang ? "تقارير" : 'Reports'}
                         </li>
                         <li className="dropdown__link">
                            {lang ? ' إصدارات خاصة' : 'Special Editions'}

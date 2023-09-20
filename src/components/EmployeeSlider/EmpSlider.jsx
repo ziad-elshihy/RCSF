@@ -103,8 +103,8 @@ const EmpSlider = () => {
                      <p className="job-title">
                         Managing Director
                         <br />And Head Of Sustainable
-                        <br />Finance, Global Policy
-                        <br /> Initiatives, Institute Of International Finance (IIF)
+                        <br />Finance, Global Policy Initiatives,
+                        <br />  Institute Of International Finance (IIF)
                      </p>
                   </div>
                   <div>
@@ -223,7 +223,7 @@ const EmpSlider = () => {
                      <h4 className='name'>Dr. May Abulnaga</h4>
                      <p className="job-title">
                         First Sub Governor - Technical
-                        <br />Office of the CBE Governor
+                        <br />Office of the CBE Governor  Financial <br /> Inclusion Sector Banking Reform Sector <br /> Central Bank of Egypt
                      </p>
                   </div>
                   <div>
