@@ -17,7 +17,7 @@ const Reg = () => {
                   titles.map((item, id) => {
                      return (
                         <div className="box" key={id}>
-                           <img src={image} alt="الهيئة العامة" />
+                           <img src={image} alt="الهيئة العامة" loading="lazy" />
                            <div className="cont">
                               <h3>{item.title}</h3>
                               <p>{item.description}</p>

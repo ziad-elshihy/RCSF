@@ -1,7 +1,8 @@
 import { useContext } from 'react'
 import { dataContext } from '../../context/Context';
 import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md'
-import "./stra.css"
+import { Link } from 'react-scroll';
+import "./strategic.css"
 // import "../StrategicGoals/strategic goals.css"
 const StrategicGoals = () => {
    const { lang } = useContext(dataContext)
@@ -19,9 +20,14 @@ const StrategicGoals = () => {
                   </h1>
                </div>
             </div>
-            <a href="#landing-1" className="go-down">
+            <Link
+               smooth={true}
+               duration={100}
+               to="landing-1"
+               className="go-down"
+            >
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
-            </a>
+            </Link>
          </section>
          <section className="landing" id="landing-1">
             <div className="container">
@@ -38,9 +44,14 @@ const StrategicGoals = () => {
                   </h3>
                </div>
             </div>
-            <a href="#landing-2" className="go-down">
+            <Link
+               smooth={true}
+               duration={500}
+               to="landing-2"
+               className="go-down"
+            >
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
-            </a>
+            </Link>
          </section>
          <section className="landing" id="landing-2">
             <div className="container">
@@ -57,9 +68,14 @@ const StrategicGoals = () => {
                   </h3>
                </div>
             </div>
-            <a href="#landing-3" className="go-down">
+            <Link
+               smooth={true}
+               duration={500}
+               to="landing-3"
+               className="go-down"
+            >
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
-            </a>
+            </Link>
          </section>
          <section className="landing" id="landing-3">
             <div className="container">
@@ -76,9 +92,14 @@ const StrategicGoals = () => {
                   </h3>
                </div>
             </div>
-            <a href="#landing-4" className="go-down">
+            <Link
+               smooth={true}
+               duration={500}
+               to="landing-4"
+               className="go-down"
+            >
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
-            </a>
+            </Link>
          </section>
          <section className="landing" id="landing-4">
             <div className="container">
@@ -95,9 +116,14 @@ const StrategicGoals = () => {
                   </h3>
                </div>
             </div>
-            <a href="#landing-5" className="go-down">
+            <Link
+               smooth={true}
+               duration={500}
+               to="landing-5"
+               className="go-down"
+            >
                <MdOutlineKeyboardDoubleArrowDown size={30} className='i' />
-            </a>
+            </Link>
          </section>
          <section className="landing" id="landing-5">
             <div className="container">

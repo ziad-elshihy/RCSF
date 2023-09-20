@@ -25,7 +25,10 @@ main {
    flex-direction: column;
    align-items: center;
    text-align: center;
-   background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f);
+   background-image: url('../../assets/images/Harvey.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .landing {
@@ -90,16 +93,13 @@ main {
 }
 
 .landing .go-down {
-   color: var(--main-color);
+   color: #278a50;
    position: absolute;
-   bottom: 30px;
+   bottom: 60px;
    left: 50%;
    transform: translateX(-50%);
    transition: var(--main-transition);
-}
-
-.landing .go-down:hover {
-   color: var(--main-color-alt);
+   cursor: pointer;
 }
 
 .landing .go-down .i {

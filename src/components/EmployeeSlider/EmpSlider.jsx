@@ -58,7 +58,7 @@ const EmpSlider = () => {
                      />
                      <h4 className='name'>dr. Mahmoud mohieldin</h4>
                      <p className="job-title">
-                     Executive Director At
+                        Executive Director At
                         <br />The International Monetary FUND<br />Elected Chairman
                      </p>
                   </div>
@@ -80,6 +80,7 @@ const EmpSlider = () => {
                <div className="container">
                   <div>
                      <img
+                        loading="lazy"
                         src={img3}
                         alt='Dr. NADA AL AGEZY'
                         className="person-img"
@@ -93,6 +94,7 @@ const EmpSlider = () => {
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img4}
                         alt='Sonja Gibbs'
                         className="person-img"
@@ -107,6 +109,7 @@ const EmpSlider = () => {
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img5}
                         alt='Mark Halle'
                         className="person-img"
@@ -125,6 +128,7 @@ const EmpSlider = () => {
                <div className="container">
                   <div>
                      <img
+                        loading="lazy"
                         src={img6}
                         alt='Robert Patalano'
                         className="person-img"
@@ -137,6 +141,7 @@ const EmpSlider = () => {
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img7}
                         alt='Dalia Abd Alkader'
                         className="person-img"
@@ -144,11 +149,12 @@ const EmpSlider = () => {
                      <h4 className='name'>DR. Dalia Abd Alkader</h4>
                      <p className="job-title">
                         Chief Sustainability Officer of
-                        <br/> Commercial International Bank
+                        <br /> Commercial International Bank
                      </p>
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img8}
                         alt='ziad'
                         className="person-img"
@@ -165,18 +171,20 @@ const EmpSlider = () => {
                <div className="container">
                   <div>
                      <img
+                        loading="lazy"
                         src={img9}
                         alt='Dr. Aisha Mahmood'
                         className="person-img"
                      />
                      <h4 className='name'>Dr. Aisha Mahmood</h4>
                      <p className="job-title">
-                        Special Advisor to 
-                        <br/>the Governor on Sustainable Banking, Nigeria
+                        Special Advisor to
+                        <br />the Governor on Sustainable Banking, Nigeria
                      </p>
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img10}
                         alt='Dr. Obaid Al Zaabi'
                         className="person-img"
@@ -189,15 +197,16 @@ const EmpSlider = () => {
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img11}
                         alt='James Zhan'
                         className="person-img"
                      />
                      <h4 className='name'>Mr.James Zhan</h4>
                      <p className="job-title">
-                        Director of the Investment and Enterprise 
-                        <br/>Division at United Nations 
-                        <br/>Conference on Trade and Developme
+                        Director of the Investment and Enterprise
+                        <br />Division at United Nations
+                        <br />Conference on Trade and Developme
                      </p>
                   </div>
                </div>
@@ -206,30 +215,33 @@ const EmpSlider = () => {
                <div className="container">
                   <div>
                      <img
+                        loading="lazy"
                         src={img12}
                         alt='Dr. May Abulnaga'
                         className="person-img"
                      />
                      <h4 className='name'>Dr. May Abulnaga</h4>
                      <p className="job-title">
-                        First Sub Governor - Technical 
-                        <br/>Office of the CBE Governor
+                        First Sub Governor - Technical
+                        <br />Office of the CBE Governor
                      </p>
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img13}
                         alt='Dr. Anthony Miller'
                         className="person-img"
                      />
                      <h4 className='name'>Dr. Anthony Miller</h4>
                      <p className="job-title">
-                        United Nations Sustainable Stock 
-                        <br/>Exchanges initiative Coordinator
+                        United Nations Sustainable Stock
+                        <br />Exchanges initiative Coordinator
                      </p>
                   </div>
                   <div>
                      <img
+                        loading="lazy"
                         src={img14}
                         alt='DR. HUSSEIN ABAZA'
                         className="person-img"

@@ -287,7 +287,7 @@ Link {
    }
 
    .header {
-      background-color: var(--white-color);
+      background-color: #278a50;
    }
 
 }
@@ -385,27 +385,26 @@ Link {
 
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 
    .nav__burger,
    .nav__close {
       color: var(--black-color);
    }
-}
+} */
 
 @media (min-width: 768px) {
 
    header.bgColor {
-      background-color: var(--white-color);
-   }
+      background-color: #278a50;   }
 
-   .main-link.bgColor {
+   /* .main-link.bgColor {
       color: var(--black-color);
    }
 
    .icon.bgColor {
       color: black;
-   }
+   } */
 }
 
 .nav li ul li {

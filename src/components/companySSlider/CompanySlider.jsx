@@ -31,40 +31,40 @@ const CompanySlider = () => {
             <div className="slider">
                <div className="slide-track">
                   <div className="slide">
-                     <img src={img1} alt='img1' />
+                     <img src={img1} alt='img1' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img2} alt='img2' />
+                     <img src={img2} alt='img2' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img3} alt='img3' />
+                     <img src={img3} alt='img3' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img4} alt='img4' />
+                     <img src={img4} alt='img4' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img5} alt='img5' />
+                     <img src={img5} alt='img5' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img6} alt='img6' />
+                     <img src={img6} alt='img6' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img7} alt='img7' />
+                     <img src={img7} alt='img7' loading="lazy" />
                   </div>
                   <div className="slide">
-                     <img src={img8} alt='img8' />
+                     <img src={img8} alt='img8' loading="lazy" />
                   </div>
                   <div className=" slide">
-                     <img src={img9} alt='img9' />
+                     <img src={img9} alt='img9' loading="lazy" />
                   </div>
                   <div className=" slide">
-                     <img src={img10} alt='img10' />
+                     <img src={img10} alt='img10' loading="lazy" />
                   </div>
                   <div className=" slide">
-                     <img src={img11} alt='img11' />
+                     <img src={img11} alt='img11' loading="lazy" />
                   </div>
                   <div className=" slide">
-                     <img src={img12} alt='img11' />
+                     <img src={img12} alt='img11' loading="lazy" />
                   </div>
                </div>
             </div>

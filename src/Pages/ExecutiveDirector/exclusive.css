@@ -1,6 +1,9 @@
-main {
-   min-height: 100vh;
-   background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f);   background-size: cover;
+.director {
+   min-height: 100vh;   background-image: url('../../assets/images/Harvey.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
    display: flex;
    justify-content: center;
    align-items: center;

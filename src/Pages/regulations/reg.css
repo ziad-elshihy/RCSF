@@ -68,9 +68,8 @@
    padding-top: var(--main-padding-top);
    padding-bottom: var(--main-padding-bottom);
    position: relative;
-   background: url('/src/assets/images/abstract-textured-backgound.jpg') center center/cover no-repeat;
-   /* background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f); */
-
+   /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)); */
+   background-image: linear-gradient(to right top, #255e45, #1f573f, #194f3a, #124834, #0c412f);
 }
 
 .articles .container {
