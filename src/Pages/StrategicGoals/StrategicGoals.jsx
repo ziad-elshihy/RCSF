@@ -33,7 +33,7 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? 'الهدف الاول' : 'First goal'}
+                     {lang ? 'الهدف الإستراتيجي الاول' : 'First goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
@@ -57,7 +57,7 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? ' الهدف الثاني' : 'Second goal'}
+                     {lang ? ' الهدف الإستراتيجي الثاني' : 'Second goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
@@ -81,7 +81,7 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? ' الهدف الثالث' : 'Third goal'}
+                     {lang ? ' الهدف الإستراتيجي الثالث' : 'Third goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
@@ -105,7 +105,7 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? 'الهدف الرابع' : 'Fourth goal'}
+                     {lang ? 'الهدف الإستراتيجي الرابع' : 'Fourth goal'}
                   </h2>
                   <h3 dir={lang ? 'rtl' : 'ltr'} >
                      {
@@ -129,7 +129,7 @@ const StrategicGoals = () => {
             <div className="container">
                <div className="text">
                   <h2>
-                     {lang ? 'الهدف الخامس' : 'Fifth goal'}
+                     {lang ? 'الهدف الإستراتيجي الخامس' : 'Fifth goal'}
                   </h2>
                   <h3 dir={lang ? 'ltr' : 'rtl'} >
                      {
