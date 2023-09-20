@@ -7,7 +7,7 @@ import "./strategic.css"
 const StrategicGoals = () => {
    const { lang } = useContext(dataContext)
    return (
-      <main>
+      <main className='strategic'>
          <section className="landing">
             <div className="container">
                <div className="text">

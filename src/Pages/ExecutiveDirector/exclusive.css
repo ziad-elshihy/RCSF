@@ -9,7 +9,7 @@
    align-items: center;
 }
 
-main div {
+.director .container {
    color: white;
    font-weight: bold;
    text-align: center;

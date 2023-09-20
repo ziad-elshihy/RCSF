@@ -1,5 +1,49 @@
 .sustainable {
-   height: 100vh;
+   background-image: url('../../assets/images/Orca.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
    color: white;
    padding: 100px 0;
+   text-align: center;
+}
+
+.sus-content {
+   margin-bottom: 30px;
+   line-height: 1.5;
+   width: 100%;
+   background-color: white;
+   border: 1px solid #eee;
+   padding: 30px 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 3px;
+}
+
+.main-head {
+   color: #e40d0d;
+}
+
+.sub-content {
+   color: black;
+   position: relative;
+   padding: 20px 0;
+   border-bottom: 1px solid #eee;
+   font-size: 18px;
+   font-weight: bold;
+}
+.sub-content::after {
+   position: absolute;
+   content: '';
+   width: 5%;
+   height: 1px;
+   bottom: -1px;
+   right: 50%;
+   transform: translateX(50%);
+   background-color: #e40d0d;
+   transition: 0.4s;
+}
+
+.sus-content:hover .sub-content::after {
+   width: 100%;
 }

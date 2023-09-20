@@ -16,6 +16,7 @@ const MissionVision = () => {
    return (
       <>
          <Swiper
+         className='swipe'
             // install Swiper modules
             modules={[Navigation, A11y, Autoplay]}
             spaceBetween={50}

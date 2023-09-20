@@ -1,9 +1,12 @@
-.slide__s2 {
-   height: 100vh;
+.swipe {
    background-image: url('../../assets/images/Orca.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   height: 100vh;
+}
+
+.slide__s2 {
    display: flex;
    align-items: center;
    justify-content: center;
