@@ -9,6 +9,7 @@ import Regulations from './Pages/regulations/Reg';
 import MissionVision from './Pages/mission&vision/MissionVision';
 import Footer from './components/footer/Footer';
 import { Context } from './context/Context.jsx';
+import SustainableFinance from './Pages/sustainable finance/SustainableFinance';
 
 const App = () => {
 
@@ -18,11 +19,12 @@ const App = () => {
             <Navbar />
             <Routes >
                <Route path='/' element={<Home />} />
-               <Route path='director' element={<ExecutiveDirector />} />
-               <Route path='strategicGoals' element={<StrategicGoals />} />
-               <Route path='patrols' element={<Patrols />} />
-               <Route path='regulations' element={<Regulations />} />
-               <Route path='mission&vision' element={<MissionVision />} />
+               <Route path='/director' element={<ExecutiveDirector />} />
+               <Route path='/strategicGoals' element={<StrategicGoals />} />
+               <Route path='/patrols' element={<Patrols />} />
+               <Route path='/regulations' element={<Regulations />} />
+               <Route path='/mission&vision' element={<MissionVision />} />
+               <Route path='/sustainable-finance' element={<SustainableFinance />} />
                {/* <Route path='*' element={<PageNotFound />} /> */}
             </Routes>
             <Footer />

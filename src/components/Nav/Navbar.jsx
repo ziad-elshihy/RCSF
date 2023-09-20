@@ -96,8 +96,14 @@ const Navbar = () => {
                         </li>
                      </ul>
                   </li>
-                  <li className="nav__link main-link">
-                     {lang ? 'أنماط التمويل المستدام' : 'Sustainable Financing Patterns'}
+                  <li >
+                     <Link
+                        className="nav__link main-link"
+                        to='/sustainable-finance'
+                        onClick={() => setShow(false)}
+                     >
+                        {lang ? 'أنماط التمويل المستدام' : 'Sustainable Financing Patterns'}
+                     </Link>
                   </li>
                   <li >
                      <Link

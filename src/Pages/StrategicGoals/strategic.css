@@ -95,7 +95,7 @@ main {
 .landing .go-down {
    color: #278a50;
    position: absolute;
-   bottom: 60px;
+   bottom: 70px;
    left: 50%;
    transform: translateX(-50%);
    transition: var(--main-transition);
