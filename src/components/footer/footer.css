@@ -195,6 +195,9 @@ html {
 .footer .copyright:hover span {
    color: var(--main-color);
 }
+iframe {
+   height: 100%;
+}
 
 /* End Footer */
 /* Start Animation */
