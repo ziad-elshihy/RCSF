@@ -10,6 +10,7 @@ import MissionVision from './Pages/mission&vision/MissionVision';
 import Footer from './components/footer/Footer';
 import { Context } from './context/Context.jsx';
 import SustainableFinance from './Pages/sustainable finance/SustainableFinance';
+import Reports from './Pages/reports/Reports';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
                <Route path='/regulations' element={<Regulations />} />
                <Route path='/mission&vision' element={<MissionVision />} />
                <Route path='/sustainable-finance' element={<SustainableFinance />} />
+               <Route path='/reports' element={<Reports />} />
                {/* <Route path='*' element={<PageNotFound />} /> */}
             </Routes>
             <Footer />

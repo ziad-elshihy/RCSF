@@ -156,8 +156,14 @@ const Navbar = () => {
                               {lang ? 'دوريات' : 'Patrols'}
                            </Link>
                         </li>
-                        <li className="dropdown__link">
-                           {lang ? "تقارير" : 'Reports'}
+                        <li>
+                           <Link
+                              className="dropdown__link"
+                              to='/reports'
+                              onClick={() => setShow(false)}
+                           >
+                              {lang ? "تقارير" : 'Reports'}
+                           </Link>
                         </li>
                         <li className="dropdown__link">
                            {lang ? ' إصدارات خاصة' : 'Special Editions'}

@@ -11,13 +11,26 @@ const Reg = () => {
    return (
       <>
          <section data-aos="fade-up" className="articles" id="articles" dir='rtl' >
-            <h2 className="main-title">القرارات و تشريعات</h2>
+            <h2 className="main-title">
+               {
+                  lang
+                     ? 'القرارات و تشريعات'
+                     : 'Regulations & Legislation'
+               }
+            </h2>
             <div className="container">
                {
                   titles.map((item, id) => {
                      return (
-                        <div className="box" key={id}>
-                           <img src={image} alt="الهيئة العامة" loading="lazy" />
+                        <div
+                           className="box"
+                           key={id}
+                        >
+                           <img
+                              src={image}
+                              alt="الهيئة العامة"
+                              loading="lazy"
+                           />
                            <div className="cont">
                               <h3>{item.title}</h3>
                               <p>{item.description}</p>
@@ -28,9 +41,15 @@ const Reg = () => {
                               href={item.file}
                               download
                            >
-                              {lang ? 'تحميل الملف' : 'Download file'}
                               {
-                                 lang ? <BsArrowRight className='icon' /> : <BsArrowLeft className='icon' />
+                                 lang
+                                    ? 'تحميل الملف'
+                                    : 'Download file'
+                              }
+                              {
+                                 lang
+                                    ? <BsArrowRight className='icon' />
+                                    : <BsArrowLeft className='icon' />
                               }
                            </a>
                         </div>

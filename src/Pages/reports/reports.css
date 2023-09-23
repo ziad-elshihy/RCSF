@@ -1,0 +1,202 @@
+/* Start Global Rules */
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* Start Components */
+.main-title {
+   font-size: 30px;
+   margin: 0 auto 80px;
+   width: fit-content;
+   border: 2px solid white;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   position: relative;
+   z-index: 1;
+   transition: var(--main-transition);
+   color: white;
+}
+
+.main-title:hover {
+   color: white;
+   border: 2px solid white;
+   transition-delay: 0.5s;
+}
+
+.main-title::before {
+   content: "";
+   height: 12px;
+   width: 12px;
+   background-color: #2da860;
+   position: absolute;
+   left: -30px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: -1;
+}
+
+.main-title:hover:before {
+   animation: left-move 0.5s linear forwards;
+}
+
+.main-title::after {
+   content: "";
+   height: 12px;
+   width: 12px;
+   background-color: #2da860;
+   position: absolute;
+   right: -30px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: -1;
+}
+
+.main-title:hover::after {
+   animation: right-move 0.5s linear forwards;
+}
+
+/* End Components */
+/* End Global Rules */
+/* Start Header */
+
+/* Start Articles */
+.articles {
+   padding-top: var(--main-padding-top);
+   padding-bottom: var(--main-padding-bottom);
+   position: relative;
+   /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)); */
+   background-image: url('../../assets/images/Orca.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+}
+
+.articles .container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   gap: 40px;
+}
+
+.articles .box-reports {
+   box-shadow: 0 2px 30px rgb(0 0 0 / 10%);
+   background-color: transparent;
+   border-radius: 6px;
+   overflow: hidden;
+   transition: transform var(--main-transition), box-shadow var(--main-transition);
+}
+
+.articles .box-reports:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+
+.articles .box-reports img {
+   width: 100%;
+}
+
+.articles .box-reports .cont {
+   padding: 20px;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+   text-align: right;
+   font-size: 17px;
+   /* height: 210px; */
+   color: white;
+   /* height: 200px; */
+}
+
+.articles .box-reports .cont p {
+   margin: 10px 0 0;
+   line-height: 1.2;
+}
+
+.articles .box-reports .info {
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-weight: bold;
+}
+
+
+.articles .box-reports .info .icon {
+   color: white;
+}
+
+.articles .box-reports:hover .icon {
+   animation: left-right 0.5s linear infinite;
+   transition: 0.5s;
+}
+
+/* End Articles */
+/* Start Animation */
+@keyframes left-move {
+   50% {
+      left: 0;
+      width: 12px;
+      height: 12px;
+   }
+
+   100% {
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+@keyframes right-move {
+   50% {
+      right: 0;
+      width: 12px;
+      height: 12px;
+   }
+
+   100% {
+      right: 0;
+      border-radius: 0;
+      width: 100%;
+      height: 100%;
+   }
+}
+
+@keyframes up-and-down {
+
+   0%,
+   100% {
+      top: 0;
+   }
+
+   50% {
+      top: -50px;
+   }
+}
+
+@keyframes bouncing {
+
+   0%,
+   10%,
+   20%,
+   50%,
+   80%,
+   100% {
+      transform: translateY(0);
+   }
+
+   40%,
+   60% {
+      transform: translateY(-15px);
+   }
+}
+
+@keyframes left-right {
+   50% {
+      transform: translateX(-10px);
+   }
+}
+
+/* End Animation */
