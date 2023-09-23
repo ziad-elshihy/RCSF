@@ -41,9 +41,11 @@ html {
    margin: 0 0 20px;
    transition: 0.3s;
 }
+
 .footer .box h3:hover {
    color: #32f382;
 }
+
 .footer .box .social {
    display: flex;
 }
@@ -142,9 +144,11 @@ html {
    align-items: center;
    gap: 10px;
 }
+
 .footer .info .mail p {
    height: 20px;
 }
+
 .footer .box .line .i {
    margin-right: 10px;
    font-size: 25px;
