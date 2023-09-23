@@ -116,9 +116,16 @@ html {
    gap: 10px;
 }
 
+.footer .box3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
 
-.footer .box .line {
-   margin-bottom: 30px;
+@media (max-width: 767px) {
+   .footer .box3 {
+      height: 200px;
+   }
 }
 
 .footer .info .mail {
@@ -143,11 +150,6 @@ html {
    color: #278a50;
 }
 
-@media (max-width: 767px) {
-   .footer .box .info span {
-      display: block;
-   }
-}
 
 .footer .box .line .info {
    font-size: 14px;

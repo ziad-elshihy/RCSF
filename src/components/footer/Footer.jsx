@@ -44,7 +44,7 @@ const Footer = () => {
                   <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 5</a></li>
                </ul>
             </div>
-            <div className="box">
+            <div className="box box3">
                <div className="line">
                   <FaMapMarkerAlt className='i' size={25} />
                   <div className="info">Smart Village - Building 137, Alexandria Desert Road - Giza, Egypt</div>
