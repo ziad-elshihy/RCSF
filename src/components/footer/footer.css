@@ -196,7 +196,7 @@ html {
    color: var(--main-color);
 }
 iframe {
-   height: 100%;
+   width: 100%;
 }
 
 /* End Footer */
