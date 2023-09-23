@@ -42,17 +42,17 @@ const Footer = () => {
                   <div className="info">Smart Village - Building 137, Alexandria Desert Road - Giza, Egypt</div>
                </div>
                <div className="line">
-                  <FaClock size={20} className='i' />
+                  <FaClock size={23} className='i' />
                   <div className="info">Business Hours: From 8:00 am To 3:30 pm</div>
                </div>
                <div className="line">
-                  <IoMail size={20} className='i' />
                   <div className="info">
                      <span>
                         <a
                            className='mail'
                            href="mailto:RCSF@fra.gov.eg"
                         >
+                           <IoMail size={20} className='i-mail' />
                            Contact us
                         </a>
                      </span>
