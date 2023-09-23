@@ -103,7 +103,6 @@ html {
 
 .footer .box .links li .i {
    color: #278a50;
-   margin-right: 10px;
 }
 
 .footer .box .links li a {
@@ -114,7 +113,7 @@ html {
 .footer .box .line {
    display: flex;
    align-items: center;
-   gap: 7px;
+   gap: 15px;
 }
 
 
