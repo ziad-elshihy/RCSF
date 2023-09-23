@@ -9,7 +9,7 @@ const Footer = () => {
    return (
       <section className="footer" id="footer">
          <div className="container">
-            <div className="box">
+            <div className="box box1">
 
                <Link
                   to='/'
