@@ -1,13 +1,11 @@
 import './style.css'
 import img1 from '../../assets/img-slider/Picture1.jpg'
-import img2 from '../../assets/img-slider/Picture2.png'
 import img3 from '../../assets/img-slider/Picture3.jpg'
 import img4 from '../../assets/img-slider/Picture5.jpg'
 import img5 from '../../assets/img-slider/Picture13.png'
 import img6 from '../../assets/img-slider/Picture8.png'
 import img7 from '../../assets/img-slider/Picture9.png'
 import img8 from '../../assets/img-slider/Picture10.jpg'
-import img9 from '../../assets/img-slider/Picture11.jpg'
 import img10 from '../../assets/img-slider/Picture12.jpg'
 import img11 from '../../assets/img-slider/Picture13.png'
 import img12 from '../../assets/img-slider/Picture6.png'
@@ -33,9 +31,7 @@ const CompanySlider = () => {
                   <div className="slide">
                      <img src={img1} alt='img1' loading="lazy" />
                   </div>
-                  <div className="slide">
-                     <img src={img2} alt='img2' loading="lazy" />
-                  </div>
+
                   <div className="slide">
                      <img src={img3} alt='img3' loading="lazy" />
                   </div>
@@ -53,9 +49,6 @@ const CompanySlider = () => {
                   </div>
                   <div className="slide">
                      <img src={img8} alt='img8' loading="lazy" />
-                  </div>
-                  <div className=" slide">
-                     <img src={img9} alt='img9' loading="lazy" />
                   </div>
                   <div className=" slide">
                      <img src={img10} alt='img10' loading="lazy" />
