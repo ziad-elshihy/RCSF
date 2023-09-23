@@ -149,8 +149,8 @@ Link {
 
    .nav__list {
       background-color: var(--white-color);
-      padding-top: 1.5rem;
-      margin-top: 0.6rem;
+      padding-top: 20px;
+      margin-top: 20px;
    }
 
    .logo {
@@ -159,6 +159,10 @@ Link {
 }
 
 @media (max-width:767px) {
+   .nav__list {
+      margin-top: 8px;
+   }
+
    .logo {
       width: 55px;
    }
@@ -309,9 +313,11 @@ Link {
       display: flex;
       gap: 3rem;
    }
+
    .nav__list__en {
       gap: 25px;
    }
+
    .nav__link {
       height: 100%;
       padding: 0;
@@ -396,7 +402,8 @@ Link {
 @media (min-width: 768px) {
 
    header.bgColor {
-      background-color: #278a50;   }
+      background-color: #278a50;
+   }
 
    /* .main-link.bgColor {
       color: var(--black-color);
