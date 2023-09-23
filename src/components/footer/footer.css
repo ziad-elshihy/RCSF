@@ -100,7 +100,7 @@ html {
 }
 
 .footer .box .links li .i {
-   color: var(--main-color);
+   color: #278a50;
    margin-right: 10px;
 }
 
@@ -130,15 +130,17 @@ html {
 .footer .box .line {
    margin: 0 0 30px;
 }
+
 .footer .info .mail {
    color: #b9b9b9;
    line-height: 1.8;
    text-decoration: underline;
 }
+
 .footer .box .line .i {
    margin-right: 10px;
    font-size: 25px;
-   color: var(--main-color);
+   color: #278a50;
 }
 
 @media (max-width: 767px) {

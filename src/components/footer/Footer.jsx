@@ -2,7 +2,7 @@ import React from 'react'
 import { BiLogoLinkedin, BiLogoFacebook } from 'react-icons/bi'
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
 import { FaMapMarkerAlt, FaClock } from 'react-icons/fa'
-import { FiMail } from 'react-icons/fi'
+import { IoMail } from 'react-icons/io5'
 import './footer.css'
 const Footer = () => {
    return (
@@ -34,15 +34,15 @@ const Footer = () => {
             </div>
             <div className="box">
                <div className="line">
-                  <FaMapMarkerAlt className='i' size={30} />
+                  <FaMapMarkerAlt className='i' size={25} />
                   <div className="info">Smart Village - Building 137, Alexandria Desert Road - Giza, Egypt</div>
                </div>
                <div className="line">
-                  <FaClock size={25} className='i' />
+                  <FaClock size={20} className='i' />
                   <div className="info">Business Hours: From 8:00 am To 3:30 pm</div>
                </div>
                <div className="line">
-                  <FiMail size={20} className='i' />
+                  <IoMail size={20} className='i' />
                   <div className="info">
                      <span>
                         <a
