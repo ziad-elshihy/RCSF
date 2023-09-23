@@ -70,7 +70,6 @@ const Footer = () => {
             <div className="box footer-gallery">
                <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.77205479874425!2d31.014674770751164!3d30.07840995623642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b92500157df%3A0x4e4f6266e1b1916e!2z2KfZhNmH2YrYptipINin2YTYudin2YXYqSDZhNmE2LHZgtin2KjYqSDYp9mE2YXYp9mE2YrYqQ!5e0!3m2!1sar!2seg!4v1695124842061!5m2!1sar!2seg"
-                  width="285"
                   height="240"
                   allowFullScreen
                   loading="lazy"
