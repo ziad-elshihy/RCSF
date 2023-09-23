@@ -47,15 +47,15 @@ const Footer = () => {
                </div>
                <div className="line">
                   <div className="info">
-                     <span>
-                        <a
-                           className='mail'
-                           href="mailto:RCSF@fra.gov.eg"
-                        >
-                           <IoMail size={20} className='i-mail' />
+                     <a
+                        className='mail'
+                        href="mailto:RCSF@fra.gov.eg"
+                     >
+                        <IoMail size={20} className='i-mail' />
+                        <p>
                            Contact us
-                        </a>
-                     </span>
+                        </p>
+                     </a>
                   </div>
                </div>
             </div>

@@ -139,7 +139,9 @@ html {
    align-items: center;
    gap: 10px;
 }
-
+.footer .info .mail p {
+   height: 20px;
+}
 .footer .box .line .i {
    margin-right: 10px;
    font-size: 25px;
