@@ -2,7 +2,7 @@ import React from 'react'
 import { BiLogoLinkedin, BiLogoFacebook } from 'react-icons/bi'
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
 import { FaMapMarkerAlt, FaClock } from 'react-icons/fa'
-import { BsTelephoneFill } from 'react-icons/bs'
+import { FiMail } from 'react-icons/fi'
 import './footer.css'
 const Footer = () => {
    return (
@@ -25,11 +25,11 @@ const Footer = () => {
             </div>
             <div className="box">
                <ul className="links">
-                  <li><MdKeyboardDoubleArrowRight size={20} className='i'/><a href="#">Important Link 1</a></li>
-                  <li><MdKeyboardDoubleArrowRight size={20} className='i'/><a href="#">Important Link 2</a></li>
-                  <li><MdKeyboardDoubleArrowRight size={20} className='i'/><a href="#">Important Link 3</a></li>
-                  <li><MdKeyboardDoubleArrowRight size={20} className='i'/><a href="#">Important Link 4</a></li>
-                  <li><MdKeyboardDoubleArrowRight size={20} className='i'/><a href="#">Important Link 5</a></li>
+                  <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 1</a></li>
+                  <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 2</a></li>
+                  <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 3</a></li>
+                  <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 4</a></li>
+                  <li><MdKeyboardDoubleArrowRight size={20} className='i' /><a href="#">Important Link 5</a></li>
                </ul>
             </div>
             <div className="box">
@@ -42,18 +42,25 @@ const Footer = () => {
                   <div className="info">Business Hours: From 8:00 am To 3:30 pm</div>
                </div>
                <div className="line">
-                  <BsTelephoneFill size={15} className='i'/>
+                  <FiMail size={20} className='i' />
                   <div className="info">
-                     <span>+201092477262</span>
+                     <span>
+                        <a
+                           className='mail'
+                           href="mailto:RCSF@fra.gov.eg"
+                        >
+                           Contact us
+                        </a>
+                     </span>
                   </div>
                </div>
             </div>
             <div className="box footer-gallery">
                <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404.77205479874425!2d31.014674770751164!3d30.07840995623642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b92500157df%3A0x4e4f6266e1b1916e!2z2KfZhNmH2YrYptipINin2YTYudin2YXYqSDZhNmE2LHZgtin2KjYqSDYp9mE2YXYp9mE2YrYqQ!5e0!3m2!1sar!2seg!4v1695124842061!5m2!1sar!2seg"
-                  width="285" 
-                  height="240" 
-                  allowFullScreen 
+                  width="285"
+                  height="240"
+                  allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                >

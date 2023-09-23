@@ -130,7 +130,11 @@ html {
 .footer .box .line {
    margin: 0 0 30px;
 }
-
+.footer .info .mail {
+   color: #b9b9b9;
+   line-height: 1.8;
+   text-decoration: underline;
+}
 .footer .box .line .i {
    margin-right: 10px;
    font-size: 25px;
