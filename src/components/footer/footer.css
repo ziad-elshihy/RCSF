@@ -36,7 +36,7 @@ html {
 }
 
 .footer .box h3 {
-   color: white;
+   color: #278a50;
    font-size: 50px;
    margin: 0 0 20px;
 }
@@ -65,12 +65,8 @@ html {
    background-color: #3b5998;
 }
 
-.footer .box h3+ul li:hover .twitter {
-   background-color: #00acee;
-}
-
-.footer .box h3+ul li:hover .youtube {
-   background-color: red;
+.footer .box h3+ul li:hover .linkedin {
+   background-color: #0a66c2;
 }
 
 .footer .box .text {

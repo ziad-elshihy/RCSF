@@ -11,13 +11,17 @@ const Footer = () => {
             <div className="box">
                <h3>RCSF</h3>
                <ul className="social">
-                  <li>
+                  {/* <li>
                      <a href="#" className="facebook">
                         <BiLogoFacebook size={30} />
                      </a>
-                  </li>
+                  </li> */}
                   <li>
-                     <a href="https://www.linkedin.com/company/the-regional-center-for-sustainable-finance-rcsf/" className="linkedin">
+                     <a
+                        href="https://www.linkedin.com/company/the-regional-center-for-sustainable-finance-rcsf/"
+                        target='blank'
+                        className="linkedin"
+                     >
                         <BiLogoLinkedin size={30} />
                      </a>
                   </li>
