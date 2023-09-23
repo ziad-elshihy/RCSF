@@ -4,12 +4,20 @@ import { MdKeyboardDoubleArrowRight } from 'react-icons/md'
 import { FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 import { IoMail } from 'react-icons/io5'
 import './footer.css'
+import { Link } from 'react-router-dom'
 const Footer = () => {
    return (
       <section className="footer" id="footer">
          <div className="container">
             <div className="box">
-               <h3>RCSF</h3>
+
+               <Link
+                  to='/'
+               >
+                  <h3>
+                     RCSF
+                  </h3>
+               </Link>
                <ul className="social">
                   <li>
                      <a href="#" className="facebook">
