@@ -42,10 +42,7 @@ html {
 
 .footer .box .social {
    display: flex;
-}
-
-.footer .box .social li {
-   margin-right: 10px;
+   gap: 10px;
 }
 
 .footer .box .social li a {
