@@ -4,7 +4,7 @@ import NavBg from '../../assets/js/script'
 import Logo from '../../assets/images/FRA.png'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { HiMiniPlusSmall } from 'react-icons/hi2'
-import { GiHamburgerMenu } from 'react-icons/gi'
+import { FaBars } from 'react-icons/fa6'
 import Button from '../button/Button';
 import { Link } from 'react-router-dom'
 import { dataContext } from '../../context/Context';
@@ -23,7 +23,7 @@ const Navbar = () => {
                   <img className="logo" src={Logo} alt="Logo" />
                </Link>
                <div className="nav__toggle" id="nav-toggle">
-                  <GiHamburgerMenu
+                  <FaBars
                      onClick={() => setShow(!show)}
                      className='nav__burger icon'
                      size={30}
