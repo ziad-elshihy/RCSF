@@ -71,7 +71,7 @@ const Navbar = () => {
                         {/* <!--=============== DROPDOWN SUBMENU ===============--> */}
                         <li className="dropdown__subitem">
                            <div className="dropdown__link dropdown__about">
-                              {lang ? "الهيكل التنظيمي :" : 'Organizational Chart:'}<HiMiniPlusSmall size={25} color='black' />
+                              {lang ? "الهيكل التنظيمي :" : 'Organizational Chart:'}<HiMiniPlusSmall size={16} color='black' />
                            </div>
                            <ul className={lang ? "dropdown__submenu-en dropdown__submenu" : "dropdown__submenu"}>
                               <li >
