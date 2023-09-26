@@ -38,7 +38,7 @@ const EmpSlider = () => {
             {
                lang
                   ? 'المجلس الإستشاري'
-                  : 'Meet RCSF advisory Board'
+                  : 'Meet RCSF Advisory Board'
             }
          </h2>
          <Swiper
