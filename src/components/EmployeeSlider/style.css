@@ -40,11 +40,10 @@ Slider
 
 .job-title {
    text-transform: capitalize;
-   color: var(--clr-grey-3);
    text-align: center;
    font-size: 14px;
    font-weight: bold;
-   color: #777;
+   color: #777777;
 }
 
 @media (max-width: 767px) {

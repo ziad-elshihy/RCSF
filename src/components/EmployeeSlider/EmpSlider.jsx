@@ -52,6 +52,7 @@ const EmpSlider = () => {
                <div className="container">
                   <div>
                      <img
+                        loading='lazy'
                         src={img1}
                         alt='dr. mohieldin'
                         className="person-img"
@@ -64,6 +65,7 @@ const EmpSlider = () => {
                   </div>
                   <div>
                      <img
+                        loading='lazy'
                         src={img2}
                         alt='Dr. Mohamed Farid Saleh'
                         className="person-img"
