@@ -78,12 +78,17 @@ Slider
 }
 
 .slide .container {
+   padding: 0 5px;
    display: flex;
    justify-content: space-evenly;
-   align-items: center;
+   align-items: flex-start;
    gap: 15px;
 }
-
+@media (max-width: 767px) {
+   .slide .container {
+      gap: 10px;
+   }
+}
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {

@@ -57,7 +57,7 @@ const EmpSlider = () => {
                         alt='dr. mohieldin'
                         className="person-img"
                      />
-                     <h4 className='name'>dr. Mahmoud mohieldin</h4>
+                     <h4 className='name'>Dr.Mahmoud mohieldin</h4>
                      <p className="job-title">
                         Executive Director At
                         <br />The International Monetary FUND<br />Elected Chairman
@@ -70,7 +70,7 @@ const EmpSlider = () => {
                         alt='Dr. Mohamed Farid Saleh'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. Mohamed Farid Saleh</h4>
+                     <h4 className='name'>Dr.Mohamed Farid Saleh</h4>
                      <p className="job-title">
                         Executive Chairman
                         <br />Financial Regulatory Authority (FRA)
@@ -87,7 +87,7 @@ const EmpSlider = () => {
                         alt='Dr. NADA AL AGEZY'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. NADA AL AGEZY</h4>
+                     <h4 className='name'>Dr.NADA AL AGEZY</h4>
                      <p className="job-title">
                         Director Of Sustainable
                         <br /> Development And International
@@ -101,7 +101,7 @@ const EmpSlider = () => {
                         alt='Sonja Gibbs'
                         className="person-img"
                      />
-                     <h4 className='name'>MS. Sonja Gibbs</h4>
+                     <h4 className='name'>MS.Sonja Gibbs</h4>
                      <p className="job-title">
                         Managing Director
                         <br />And Head Of Sustainable
@@ -116,7 +116,7 @@ const EmpSlider = () => {
                         alt='Mark Halle'
                         className="person-img"
                      />
-                     <h4 className='name'>MS. Mark Halle</h4>
+                     <h4 className='name'>MS.Mark Halle</h4>
                      <p className="job-title">
                         Senior Advisor
                         <br />Un Environment International
@@ -135,7 +135,7 @@ const EmpSlider = () => {
                         alt='Robert Patalano'
                         className="person-img"
                      />
-                     <h4 className='name'>MR. Robert Patalano</h4>
+                     <h4 className='name'>MR.Robert Patalano</h4>
                      <p className="job-title">
                         Acting Head Of Division At
                         <br />OECD - Financial Markets Division
@@ -148,7 +148,7 @@ const EmpSlider = () => {
                         alt='Dalia Abd Alkader'
                         className="person-img"
                      />
-                     <h4 className='name'>DR. Dalia Abd Alkader</h4>
+                     <h4 className='name'>DR.Dalia Abd-Alkader</h4>
                      <p className="job-title">
                         Chief Sustainability Officer of
                         <br /> Commercial International Bank
@@ -161,7 +161,7 @@ const EmpSlider = () => {
                         alt='ziad'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. ElSayed Torky</h4>
+                     <h4 className='name'>Dr.ElSayed Torky</h4>
                      <p className="job-title">
                         Senior Advisor at
                         <br /> the Federation of Egyptian Industries
@@ -178,7 +178,7 @@ const EmpSlider = () => {
                         alt='Dr. Aisha Mahmood'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. Aisha Mahmood</h4>
+                     <h4 className='name'>Dr.Aisha Mahmood</h4>
                      <p className="job-title">
                         Special Advisor to
                         <br />the Governor on Sustainable Banking, Nigeria
@@ -191,7 +191,7 @@ const EmpSlider = () => {
                         alt='Dr. Obaid Al Zaabi'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. Obaid Al Zaabi</h4>
+                     <h4 className='name'>Dr.Obaid Al Zaabi</h4>
                      <p className="job-title">
                         Former Chief Executive Officer at
                         <br />Securities and Commodities Authority, UAE
@@ -222,7 +222,7 @@ const EmpSlider = () => {
                         alt='Dr. May Abulnaga'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. May Abulnaga</h4>
+                     <h4 className='name'>Dr.May Abulnaga</h4>
                      <p className="job-title">
                         First Sub Governor - Technical
                         <br />Office of the CBE Governor  Financial <br /> Inclusion Sector Banking Reform Sector <br /> Central Bank of Egypt
@@ -235,7 +235,7 @@ const EmpSlider = () => {
                         alt='Dr. Anthony Miller'
                         className="person-img"
                      />
-                     <h4 className='name'>Dr. Anthony Miller</h4>
+                     <h4 className='name'>Dr.Anthony Miller</h4>
                      <p className="job-title">
                         United Nations Sustainable Stock
                         <br />Exchanges initiative Coordinator
@@ -248,7 +248,7 @@ const EmpSlider = () => {
                         alt='DR. HUSSEIN ABAZA'
                         className="person-img"
                      />
-                     <h4 className='name'>DR. HUSSEIN ABAZA</h4>
+                     <h4 className='name'>DR.HUSSEIN ABAZA</h4>
                      <p className="job-title">
                         Sustainability  Expert & Advisor
                      </p>
