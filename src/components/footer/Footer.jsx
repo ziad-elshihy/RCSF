@@ -20,7 +20,11 @@ const Footer = () => {
                </Link>
                <ul className="social">
                   <li>
-                     <a href="#" className="facebook">
+                     <a
+                        href="#"
+                        aria-label="Facebook"
+                        className="facebook"
+                     >
                         <BiLogoFacebook size={30} />
                      </a>
                   </li>
@@ -28,6 +32,7 @@ const Footer = () => {
                      <a
                         href="https://www.linkedin.com/company/the-regional-center-for-sustainable-finance-rcsf/"
                         target='blank'
+                        aria-label="Linkedin"
                         className="linkedin"
                      >
                         <BiLogoLinkedin size={30} />
@@ -73,6 +78,7 @@ const Footer = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
+                  title='Location of RCSF on maps'
                >
                </iframe>
             </div>
