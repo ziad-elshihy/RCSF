@@ -83,7 +83,11 @@ Slider
    align-items: center;
    gap: 15px;
 }
-
+@media (max-width: 767px) {
+   .slide .container {
+      gap: 10px;
+   }
+}
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
