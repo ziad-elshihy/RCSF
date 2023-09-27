@@ -116,6 +116,7 @@ Link {
 
 .logo {
    width: 75px;
+   height: 75px;
 }
 
 
@@ -155,6 +156,7 @@ Link {
 
    .logo {
       width: 75px;
+      height: 75px;
    }
 }
 
@@ -165,6 +167,7 @@ Link {
 
    .logo {
       width: 55px;
+      height: 55px;
    }
 }
 
