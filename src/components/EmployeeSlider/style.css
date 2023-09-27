@@ -78,7 +78,7 @@ Slider
 }
 
 .slide .container {
-   padding: 0;
+   padding: 0 5px;
    display: flex;
    justify-content: space-evenly;
    align-items: flex-start;
