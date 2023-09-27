@@ -1,35 +1,56 @@
 .slide__s {
    height: 100vh;
-   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/sustainable-development-goals-still-life.jpg');
+   background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/Orca.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
    .slide__s {
       background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/Orca.jpg');
    }
-}
+} */
 
-.slide__s .image {
+.slide__s .container {
+   padding-top: 75px;
    position: relative;
    width: 100%;
    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
 }
 
 .big-logo {
    width: 350px;
    height: 350px;
-   position: absolute;
+   /* position: absolute;
    left: 50%;
    top: 50%;
-   transform: translate(-48%, -45%);
+   transform: translate(-48%, -45%); */
+}
+
+.slide__s .container h2 {
+   color: white;
+}
+
+.text-45 {
+   font-size: 40px;
 }
 
 @media (max-width: 767px) {
+   .slide__s .container {
+      flex-direction: column;
+   }
+
    .big-logo {
       width: 310px;
       height: 310px;
+   }
+
+   .slide__s .container h2 {
+      font-size: 30px;
    }
 }
