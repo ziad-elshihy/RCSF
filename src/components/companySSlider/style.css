@@ -66,8 +66,9 @@ h2 {
    width: 100%;
    height: 150px;
    border-radius: 3px;
-   border: 3px solid #eee;
+   border: 3px solid transparent;
    transition: 0.3s;
+   aspect-ratio: 2.15 / 1;
 }
 
 .slider .slide img:hover {
