@@ -17,7 +17,6 @@ export default function NavBg() {
       } else {
          header.classList.add('bgColor')
          link.classList.add('bgColor')
-            ;
       }
    })
 }

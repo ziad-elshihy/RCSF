@@ -47,6 +47,9 @@ Slider
 }
 
 @media (max-width: 767px) {
+   .meet {
+      font-size: 28px;
+   }
    .person-img {
       width: 100px;
       height: 100px;
@@ -92,13 +95,13 @@ Slider
 
 @media (max-width: 767px) {
    .name {
-      font-size: 10px;
+      font-size: 13px;
       font-weight: bold;
    }
 
    .job-title {
-      font-size: 9px;
+      font-size: 12px;
       height: 40px;
-      overflow-y:scroll ;
+      overflow-y: scroll;
    }
 }

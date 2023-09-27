@@ -8,8 +8,8 @@
 
 @media (max-width: 767px) {
    .slide__s {
-         background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/Orca.jpg');
-      }
+      background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)), url('../../assets/images/Orca.jpg');
+   }
 }
 
 .slide__s .image {
@@ -33,4 +33,3 @@
       height: 310px;
    }
 }
-
