@@ -1,5 +1,77 @@
+/* Start Global Rules */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;700;800&family=Sedgwick+Ave+Display&display=swap');
+
 * {
    margin: 0;
    padding: 0;
-   font-family: sans-serif;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
+
+body {
+   font-family: 'Cairo', sans-serif;
+}
+
+/* Start Components */
+.main-title {
+   font-size: 30px;
+   margin: 0 auto 80px;
+   width: fit-content;
+   border: 2px solid white;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   position: relative;
+   z-index: 1;
+   transition: var(--main-transition);
+   color: white;
+}
+
+@media (max-width:767px) {
+   .main-title-en {
+      font-size: 17px;
+   }
+}
+
+.main-title:hover {
+   color: white;
+   border: 2px solid white;
+   transition-delay: 0.5s;
+}
+
+.main-title::before {
+   content: "";
+   height: 12px;
+   width: 12px;
+   background-color: #2da860;
+   position: absolute;
+   left: -30px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: -1;
+}
+
+.main-title:hover:before {
+   animation: left-move 0.5s linear forwards;
+}
+
+.main-title::after {
+   content: "";
+   height: 12px;
+   width: 12px;
+   background-color: #2da860;
+   position: absolute;
+   right: -30px;
+   border-radius: 50%;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: -1;
+}
+
+.main-title:hover::after {
+   animation: right-move 0.5s linear forwards;
+}
+
+/* End Components */
+/* End Global Rules */

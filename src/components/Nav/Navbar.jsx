@@ -120,13 +120,17 @@ const Navbar = () => {
                         {lang ? 'أنشطة وفاعليات' : "Activities and events"} <IoMdArrowDropdown />
                      </div>
                      <ul className="dropdown__menu">
-                        <li className="dropdown__link">
-                           {lang ? 'حلقات نقاش' : 'Discussion panels'}
-
+                        <li >
+                           <Link
+                              className="dropdown__link"
+                              to='/discussion-panel'
+                              onClick={() => setShow(false)}
+                           >
+                              {lang ? 'حلقات نقاش' : 'Discussion panels'}
+                           </Link>
                         </li>
                         <li className="dropdown__link">
                            {lang ? 'مؤتمرات' : 'Conferences'}
-
                         </li>
                         <li className="dropdown__link">
                            {lang ? ' ندوات' : 'Seminars'}
@@ -134,7 +138,6 @@ const Navbar = () => {
                         </li>
                         <li className="dropdown__link">
                            {lang ? ' ورش عمل' : 'Workshops'}
-
                         </li>
                      </ul>
                   </li>

@@ -11,13 +11,15 @@ const Reg = () => {
    return (
       <>
          <section data-aos="fade-up" className="articles" id="articles" dir='rtl' >
-            <h2 className="main-title">
-               {
-                  lang
-                     ? 'القرارات و تشريعات'
-                     : 'Regulations & Legislation'
-               }
-            </h2>
+            {
+               lang
+                  ? <h2 className="main-title">
+                     القرارات و تشريعات
+                  </h2>
+                  : <h2 className='main-title main-title-en'>
+                     Regulations & Legislation
+                  </h2>
+            }
             <div className="container">
                {
                   titles.map((item, id) => {
@@ -57,7 +59,7 @@ const Reg = () => {
                   })
                }
             </div>
-         </section>
+         </section >
       </>
    )
 }

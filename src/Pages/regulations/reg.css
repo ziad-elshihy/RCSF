@@ -1,74 +1,8 @@
-/* Start Global Rules */
-* {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-
-/* Start Components */
-.main-title {
-   font-size: 30px;
-   margin: 0 auto 80px;
-   width: fit-content;
-   border: 2px solid white;
-   padding: 10px 20px;
-   text-transform: uppercase;
-   position: relative;
-   z-index: 1;
-   transition: var(--main-transition);
-   color: white;
-}
-
-.main-title:hover {
-   color: white;
-   border: 2px solid white;
-   transition-delay: 0.5s;
-}
-
-.main-title::before {
-   content: "";
-   height: 12px;
-   width: 12px;
-   background-color: #2da860;
-   position: absolute;
-   left: -30px;
-   border-radius: 50%;
-   top: 50%;
-   transform: translateY(-50%);
-   z-index: -1;
-}
-
-.main-title:hover:before {
-   animation: left-move 0.5s linear forwards;
-}
-
-.main-title::after {
-   content: "";
-   height: 12px;
-   width: 12px;
-   background-color: #2da860;
-   position: absolute;
-   right: -30px;
-   border-radius: 50%;
-   top: 50%;
-   transform: translateY(-50%);
-   z-index: -1;
-}
-
-.main-title:hover::after {
-   animation: right-move 0.5s linear forwards;
-}
-
-/* End Components */
-/* End Global Rules */
-/* Start Header */
-
 /* Start Articles */
 .articles {
    padding-top: var(--main-padding-top);
    padding-bottom: var(--main-padding-bottom);
    position: relative;
-   /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0)); */
    background-image: url('../../assets/images/Orca.jpg');
    background-position: center;
    background-repeat: no-repeat;
@@ -106,7 +40,11 @@
    font-size: 17px;
    height: 210px;
    color: white;
-   height: 200px;
+   height: 240px;
+}
+
+.articles .box .cont h3 {
+   font-size: 20px;
 }
 
 .articles .box .cont p {
