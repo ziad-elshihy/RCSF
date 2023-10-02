@@ -14,7 +14,6 @@
 
    /*========== Font and typography ==========*/
    /*.5rem = 8px | 1rem = 16px ...*/
-   --body-font: "Montserrat", sans-serif;
    --normal-font-size: .938rem;
 
    /*========== Font weight ==========*/
@@ -33,54 +32,7 @@
    }
 }
 
-/*=============== BASE ===============*/
-* {
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-}
-
-ul {
-   list-style: none;
-}
-
-a {
-   text-decoration: none;
-}
-
-/*=============== REUSABLE CSS CLASSES ===============*/
-.container {
-   padding-left: 15px;
-   padding-right: 15px;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-/* Small */
-@media (min-width: 768px) {
-   .container {
-      width: 750px;
-   }
-}
-
-/* Medium */
-@media (min-width: 992px) {
-   .container {
-      width: 970px;
-   }
-}
-
-/* Large */
-@media (min-width: 1200px) {
-   .container {
-      width: 1170px;
-   }
-}
-
-
-
-
-/*=============== HEADER ===============*/
+/*============== HEADER ===============*/
 .header {
    position: fixed;
    top: 0;
