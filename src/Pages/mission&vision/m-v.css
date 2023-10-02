@@ -6,13 +6,13 @@
    height: 100vh;
 }
 
-.slide__s2 {
+.swipe .slide__s2 {
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-.content {
+.swipe .content {
    display: flex;
    flex-direction: column;
    gap: 20px;
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 767px) {
-   .content {
+   .swipe .content {
       font-size: 20px;
    }
 }
