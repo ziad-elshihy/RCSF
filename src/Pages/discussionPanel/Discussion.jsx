@@ -7,8 +7,8 @@ const Discussion = () => {
       <main className='discussion' dir='rtl'>
          <div className="container">
             <h2>
-               تحديات تنفيذ إطار التمويل المستدام
-               "ورشة عمل"
+               "تحديات تنفيذ إطار التمويل المستدام"
+               ورشة عمل
             </h2>
             <div>
                <p>
