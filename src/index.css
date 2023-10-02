@@ -9,6 +9,15 @@
    box-sizing: border-box;
 }
 
+:root {
+   --main-color: #4065aa;
+   --main-color-alt: #4065aa;
+   --main-transition: 0.3s;
+   --main-padding-top: 100px;
+   --main-padding-bottom: 100px;
+   --section-background: #ececec;
+}
+
 html {
    scroll-behavior: smooth;
 }
