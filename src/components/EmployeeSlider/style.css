@@ -15,8 +15,9 @@
 Slider
 ===============
 */
-.meet {
+.emp-h2 {
    padding-top: 70px;
+   font-size: 50px;
 }
 
 .person-img {
@@ -47,8 +48,8 @@ Slider
 }
 
 @media (max-width: 767px) {
-   .meet {
-      font-size: 28px;
+   .emp-h2 {
+      font-size: 30px;
    }
    .person-img {
       width: 100px;

@@ -34,10 +34,11 @@
 
 .slide__s .container h2 {
    color: white;
+   text-align: center;
 }
 
 .text-45 {
-   font-size: 30px;
+   font-size: 35px;
 }
 
 @media (max-width: 767px) {
@@ -51,6 +52,6 @@
    }
 
    .slide__s .container h2 {
-      font-size: 30px;
+      font-size: 20px;
    }
 }

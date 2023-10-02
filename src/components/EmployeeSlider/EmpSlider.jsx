@@ -34,7 +34,7 @@ const EmpSlider = () => {
 
    return (
       <>
-         <h2 className='meet'>
+         <h2 className='emp-h2'>
             {
                lang
                   ? 'المجلس الإستشاري'

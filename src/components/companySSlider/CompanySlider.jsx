@@ -18,7 +18,7 @@ const CompanySlider = () => {
    const { lang } = useContext(dataContext)
    return (
       <div className='wrap'>
-         <h2 className='meet'>
+         <h2 className='com-h2'>
             {
                lang
                   ? "الشراكات"
