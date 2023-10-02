@@ -26,4 +26,8 @@
    .swipe .content {
       font-size: 20px;
    }
+
+   .swipe .content h3 {
+      font-size: 20px;
+   }
 }

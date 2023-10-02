@@ -23,6 +23,14 @@
    font-weight: 700;
    font-style: normal;
    padding: 20px 0 30px;
+   text-align: center;
+}
+
+@media (max-width: 767px) {
+   .discussion .container h2 {
+      font-size: 30px;
+      text-align: right;
+   }
 }
 
 .discussion .container>div {

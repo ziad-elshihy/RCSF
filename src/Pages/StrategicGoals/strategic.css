@@ -45,6 +45,15 @@
    letter-spacing: -2px;
 }
 
+.landing .text h2 {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.landing .text h3 {
+   font-size: 22px;
+}
+
 @media (max-width: 767px) {
    .landing .text h1 {
       font-size: 28px;
@@ -82,16 +91,6 @@
 
 .landing .go-down .i {
    animation: bouncing 1.5s infinite;
-}
-
-
-h2 {
-   font-size: 40px;
-   font-weight: bold;
-}
-
-h3 {
-   font-size: 25px;
 }
 
 /* End Landing */
