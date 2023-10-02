@@ -8,13 +8,15 @@ const ExecutiveDirector = () => {
       <>
          <main className='director' >
             <div className='container'>
-               <h1>
-                  {
-                     lang
-                        ? 'أ.أحمد رشدي'
-                        : 'MR.Ahmed Roushdy'
-                  }
-               </h1>
+               {
+                  lang
+                     ? <h1>
+                        أ.أحمد رشدي
+                     </h1>
+                     : <h1 className='exc-h1-en'>
+                        MR.Ahmed Roushdy
+                     </h1>
+               }
                <h2>
                   {
                      lang
