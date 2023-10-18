@@ -58,13 +58,6 @@ const CompanySlider = () => {
                   </div>
                   <div className="slide">
                      <img
-                        src={img6}
-                        alt='img6'
-                        loading="lazy"
-                     />
-                  </div>
-                  <div className="slide">
-                     <img
                         src={img7}
                         alt='img7'
                         loading="lazy"
